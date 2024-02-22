@@ -1,0 +1,49 @@
+/* TOP FUNCTIONALITY */
+@keyframes diagonalSlideLogo {
+    from {
+        transform: translate(-50vw, -50vh);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+@keyframes diagonalSlideVideo {
+    from {
+        transform: translate(50vw, -50vh); 
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+.logo {
+    animation: diagonalSlideLogo 1.5s ease-out forwards;
+}
+.perf-vid {
+    animation: diagonalSlideVideo 1.5s ease-out forwards;
+}
+html{
+    scroll-behavior: smooth; 
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 13%;
+    gap: 15%;
+}
+.logo {
+    width: 13rem;
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    border-radius: 45%;
+}
+.perf-vid{
+    min-height: 340px;
+    width: 50%;
+}

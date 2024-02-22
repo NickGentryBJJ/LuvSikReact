@@ -1,0 +1,38 @@
+#stickyHeader{
+    position: fixed;
+    top: 0px;
+}
+.header-links-wrapper{
+    width: 104vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70px;
+    background-color:black;
+    align-items:center;
+    letter-spacing: 2px;
+    z-index:1;
+}
+.header-links{
+    margin:0px;
+    font-family: var(--main-font);
+    color: white;
+    cursor:pointer;
+    text-decoration: none;
+}
+.header-links:hover{
+    color:#006eff
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+}
+@media only screen and  (max-width: 768px) { 
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 14px;
+    }
+}
