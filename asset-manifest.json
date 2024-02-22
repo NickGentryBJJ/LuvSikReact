@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LuvSikReact/static/css/main.f6f432de.css",
+    "main.js": "/LuvSikReact/static/js/main.355fbfbb.js",
+    "static/media/background.png": "/LuvSikReact/static/media/background.6ac44c4c8ebbcb336520.png",
+    "index.html": "/LuvSikReact/index.html",
+    "main.f6f432de.css.map": "/LuvSikReact/static/css/main.f6f432de.css.map",
+    "main.355fbfbb.js.map": "/LuvSikReact/static/js/main.355fbfbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f432de.css",
+    "static/js/main.355fbfbb.js"
+  ]
+}
