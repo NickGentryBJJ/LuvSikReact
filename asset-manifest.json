@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LuvSikReact/static/css/main.42dc833f.css",
-    "main.js": "/LuvSikReact/static/js/main.ad8cab63.js",
+    "main.js": "/LuvSikReact/static/js/main.a7f5a1e9.js",
     "static/media/background.png": "/LuvSikReact/static/media/background.6ac44c4c8ebbcb336520.png",
     "index.html": "/LuvSikReact/index.html",
     "main.42dc833f.css.map": "/LuvSikReact/static/css/main.42dc833f.css.map",
-    "main.ad8cab63.js.map": "/LuvSikReact/static/js/main.ad8cab63.js.map"
+    "main.a7f5a1e9.js.map": "/LuvSikReact/static/js/main.a7f5a1e9.js.map"
   },
   "entrypoints": [
     "static/css/main.42dc833f.css",
-    "static/js/main.ad8cab63.js"
+    "static/js/main.a7f5a1e9.js"
   ]
 }
