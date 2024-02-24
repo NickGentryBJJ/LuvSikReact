@@ -30,12 +30,12 @@ function NavBar() {
         scrollTo(body, duration);
     }
     function scrollToShows() {
-        var aboutSection = document.getElementById('about-section');
-        scrollTo(aboutSection, 3000); 
+        var aboutSection = document.getElementById('show-section');
+        scrollTo(aboutSection, 2000); 
     }
     function scrollToContact() {
         var contactSection = document.getElementById('contact-section');
-        scrollTo(contactSection, 3000); 
+        scrollTo(contactSection, 2000); 
     }
 
     return (
