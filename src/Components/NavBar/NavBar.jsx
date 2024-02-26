@@ -2,53 +2,39 @@ import React from "react";
 import './NavBar.css';
 
 function NavBar() {
-    function scrollTo(element, duration) {
-        const targetPosition = element.offsetTop;
-        const startPosition = window.scrollY;
-        const distance = targetPosition - startPosition;
-        const startTime = performance.now();
-    
-        function scrollAnimation(currentTime) {
-            const elapsedTime = currentTime - startTime;
-            const progress = Math.min(elapsedTime / duration, 1);
-            const ease = easeOut(progress);
-            window.scrollTo(0, startPosition + distance * ease);
-
-            if (elapsedTime < duration) {
-                requestAnimationFrame(scrollAnimation);
-            }
-        }
-        requestAnimationFrame(scrollAnimation);
-    }
-    function easeOut(t) {
-        return 1 - (--t) * t * t * t;
-    }
-    // Risin' to the top!
-    function keniBurke() {    
-        const body = document.body;
-        const duration = 5000; 
-        scrollTo(body, duration);
-    }
     function scrollToShows() {
         var aboutSection = document.getElementById('show-section');
-        scrollTo(aboutSection, 2000); 
+        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+    
+    function scrollToMedia() {
+        var mediaSection = document.getElementById('media-section');
+        mediaSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
     function scrollToContact() {
         var contactSection = document.getElementById('contact-section');
-        scrollTo(contactSection, 2000); 
+        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-
+    
+    // Risin' to the top!
+    function keniBurke() {    
+        const body = document.documentElement || document.body;
+        body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
     return (
         <div id="stickyHeader" className="header-links-wrapper">
                 <div>
                     <img 
                         onClick={keniBurke} 
                         className="nav-logo" 
-                        src="images/band_icon.png" 
+                        src={require("../../images/band_icon.png") }
                         alt="LuvSikAngel"/>
                 </div>
                 <div className="links">
                     <p onClick={scrollToShows} className="header-links">UPCOMING SHOWS</p>
+                    <p onClick={scrollToMedia} className="header-links">GALLERY</p>
                     <p onClick={scrollToContact} className="header-links">CONTACT</p>
                 </div> 
         </div>

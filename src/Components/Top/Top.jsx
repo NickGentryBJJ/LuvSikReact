@@ -4,7 +4,7 @@ import './Top.css';
 function Top() {
     return (
         <div className="top">
-            <img className="logo" src="images/band_icon.png" alt="LuvSikAngel"/>        
+            <img className="logo" src={require("../../images/band_icon.png")} alt=""/>       
             <iframe 
             id="performance"
             className="perf-vid"
