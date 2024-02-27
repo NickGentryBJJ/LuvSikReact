@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LuvSikReact/static/css/main.09ba7fa6.css",
-    "main.js": "/LuvSikReact/static/js/main.a03462b5.js",
+    "main.css": "/LuvSikReact/static/css/main.314a5af9.css",
+    "main.js": "/LuvSikReact/static/js/main.863c1772.js",
     "static/media/background.png": "/LuvSikReact/static/media/background.6ac44c4c8ebbcb336520.png",
     "static/media/band_icon.png": "/LuvSikReact/static/media/band_icon.91864b48fd4c244bbfbd.png",
     "static/media/IMG_5418.jpg": "/LuvSikReact/static/media/IMG_5418.4653a34663214610cd05.jpg",
@@ -34,11 +34,11 @@
     "static/media/youtube-link.png": "/LuvSikReact/static/media/youtube-link.6f9e32ba8209c71da075.png",
     "static/media/Email.png": "/LuvSikReact/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/LuvSikReact/index.html",
-    "main.09ba7fa6.css.map": "/LuvSikReact/static/css/main.09ba7fa6.css.map",
-    "main.a03462b5.js.map": "/LuvSikReact/static/js/main.a03462b5.js.map"
+    "main.314a5af9.css.map": "/LuvSikReact/static/css/main.314a5af9.css.map",
+    "main.863c1772.js.map": "/LuvSikReact/static/js/main.863c1772.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ba7fa6.css",
-    "static/js/main.a03462b5.js"
+    "static/css/main.314a5af9.css",
+    "static/js/main.863c1772.js"
   ]
 }
