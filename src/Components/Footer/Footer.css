@@ -225,19 +225,11 @@
     .my-row{
         font-size: 12px;
     }
-    .year-container {
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 20%;
-    }
     .bottom-footer-wrapper{
         display: none;
     }
     .foot-left{
         width: 50%;
-    }
-    .cal-year{
-        font-size: 43px;
     }
     .host{
         font-size: 18px;
@@ -248,52 +240,8 @@
     .git, .linked-in{
         width: 3rem;
     }
-    .exit-statement{
-        font-size: 50px;
-    }
     .kokachin{
         width: 2rem;
-    }
-    .phone-number{
-        margin-top: 20%;
-    }
-    body{
-        background: blue;
-    }
-    .top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 100px;
-    }
-    .logo{
-        width: 10rem;
-        align-self: center;
-        margin-bottom: 30px;
-    }
-    .title2{
-        font-size: 45px;
-    }
-    .show-card{
-        min-height: auto;
-        margin-bottom: 10%;
-    }
-    .venue-name{
-        font-size: 30px;
-    }
-    .upcoming-shows{
-        padding-left: 10%;
-        padding-right: 10%;
-        width: 100%;
-        margin-top: 20%;
-    }
-    .upcoming-shows-wrapper{
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 5%;
-        width: 70%;
     }
     .last-words-footer{
         font-size: 16px;
@@ -312,8 +260,5 @@
     }
     #show-section{
         padding-top: 70px;
-    }
-    .perf-vid{
-        width: 100%;
     }
 }

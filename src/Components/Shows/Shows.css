@@ -74,12 +74,28 @@
     flex-direction: column;
     align-items: center;
 }
-
+/* MOBILE STYLING */
 @media only screen and  (max-width: 768px) {
+    .upcoming-shows-wrapper{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        width: 70%;
+    }
     .title{
         font-size: 45px;
     }
-    .upcoming-shows-wrapper{
-        width: 80%;
+    .show-card{
+        min-height: auto;
+        margin-bottom: 10%;
+    }
+    .venue-name{
+        font-size: 30px;
+    }
+    .upcoming-shows{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        margin-top: 20%;
     }
 }

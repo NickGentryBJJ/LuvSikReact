@@ -35,7 +35,7 @@
     justify-content: space-evenly;
     width: 70vw;
 }
-/* MOBILE */
+/* MOBILE STYLING */
 @media only screen and  (max-width: 768px) {
     .links{
         display: flex;
