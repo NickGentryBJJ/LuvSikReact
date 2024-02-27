@@ -29,7 +29,7 @@ function NavBar() {
                         alt="LuvSikAngel"/>
                 </div>
                 <div className="links">
-                    <p onClick={scrollToShows} className="header-links">UPCOMING SHOWS</p>
+                    <p onClick={scrollToShows} className="header-links">SHOWS</p>
                     <p onClick={scrollToMedia} className="header-links">GALLERY</p>
                     <p onClick={scrollToContact} className="header-links">CONTACT</p>
                 </div> 
