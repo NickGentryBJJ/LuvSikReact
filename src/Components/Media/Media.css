@@ -68,10 +68,22 @@
 /* MOBILE STYLING  */
 @media only screen and  (max-width: 768px) {
     .gallery-container{   
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+    .first-row{        
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
     .media-cont{
         width: 70%;
+        padding-bottom: 20px;
     }
     .gallery-title{
         font-size: 33px;
@@ -79,5 +91,7 @@
     .media-wrap{
         padding-top: 100px;
     }
-    
+    .gill{
+        max-width: 100%;
+    }
 }
