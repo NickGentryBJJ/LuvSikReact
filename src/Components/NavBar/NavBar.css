@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     height: 70px;
-    background-color:#33333396;
+    background: linear-gradient(253deg, #9f009fbf, #03038ac9);
     align-items:center;
     letter-spacing: 2px;
     z-index:1;
@@ -37,13 +37,8 @@
 }
 /* MOBILE STYLING */
 @media only screen and  (max-width: 768px) {
-    .links{
-        display: flex;
-        justify-content: space-around;
-        width: 70%;
-    }
     .header-links{
-        font-size: 20px;
+        font-size: 16px;
     }
     .header-links-wrapper{
         height: 90px;

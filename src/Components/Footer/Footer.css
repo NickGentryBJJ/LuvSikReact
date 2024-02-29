@@ -203,7 +203,7 @@
         gap: 20px;
     }
     .foot-title{
-        font-size: 40px;
+        font-size: 36px;
         text-align: center;
         margin-top: 20%;
         margin-bottom: 10%;
@@ -211,7 +211,7 @@
     .want-email, .want-phone, .want-message {
         text-align: center;
         margin-bottom: 20px;
-        font-size: 40px;
+        font-size: 36px;
     }
     .contact-foot, .email-foot, .phone-foot {
         align-items: center;
@@ -232,7 +232,7 @@
         width: 50%;
     }
     .host{
-        font-size: 18px;
+        font-size: 14px;
     }
     .connect-with-me-wrapper{
         gap: 20px;
@@ -254,9 +254,6 @@
     }
     .facebook-link, .gigsalad-link{
         margin-top: 10%;
-    }
-    .header-links{
-        font-size: 12px;
     }
     #show-section{
         padding-top: 70px;
