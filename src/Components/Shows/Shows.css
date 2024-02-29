@@ -1,18 +1,14 @@
 .title{
     margin-top: 10%;
-    color: whitesmoke;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
-    font-family: 'Permanent Marker', sans-serif;
-    text-align: center;
+    color: #b4b4ff;
+    text-shadow: 8px 8px 4px black;
 }
 .date {
     color: whitesmoke;
     font-weight: bolder;
     font-size: 26px;
-}
-.title2{
-    color: #db0000;
-    text-shadow: 8px 8px 4px black;
 }
 .title3{
     color: white;
