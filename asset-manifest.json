@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.61b174aa.css",
-    "main.js": "/static/js/main.30b359fa.js",
+    "main.css": "/static/css/main.4cd14c1e.css",
+    "main.js": "/static/js/main.131ccdbc.js",
     "static/media/background.png": "/static/media/background.6ac44c4c8ebbcb336520.png",
+    "static/media/guitar.jpg": "/static/media/guitar.2a817a8a28d30eca9f9b.jpg",
     "static/media/band_icon.png": "/static/media/band_icon.91864b48fd4c244bbfbd.png",
     "static/media/IMG_5418.jpg": "/static/media/IMG_5418.4653a34663214610cd05.jpg",
-    "static/media/IMG_5419.jpg": "/static/media/IMG_5419.af61125c12beb336da23.jpg",
     "static/media/IMG_5414.jpg": "/static/media/IMG_5414.f2663893b6108a40dae6.jpg",
     "static/media/IMG_0163.jpg": "/static/media/IMG_0163.51a89296b3a29e515802.jpg",
     "static/media/IMG_0162.jpg": "/static/media/IMG_0162.ddfb2d98a3503ea08093.jpg",
@@ -22,9 +22,7 @@
     "static/media/IMG_0162(1).jpg": "/static/media/IMG_0162(1).a76e0e2a037b008a822e.jpg",
     "static/media/IMG_5434.jpg": "/static/media/IMG_5434.c264036862b5455ebee1.jpg",
     "static/media/IMG_5439.jpg": "/static/media/IMG_5439.94f5565279a2d42a0f89.jpg",
-    "static/media/IMG_5427.jpg": "/static/media/IMG_5427.5d4910fec4907d1f2441.jpg",
     "static/media/IMG_5440.jpg": "/static/media/IMG_5440.aa94a807369fd8b88d5a.jpg",
-    "static/media/IMG_5428.jpg": "/static/media/IMG_5428.0cc7e87b26ed908230b3.jpg",
     "static/media/IMG_5441.jpg": "/static/media/IMG_5441.bdc1708f1468bb7c26da.jpg",
     "static/media/IMG_5435.jpg": "/static/media/IMG_5435.050f084b309a38890090.jpg",
     "static/media/IMG_5442.jpg": "/static/media/IMG_5442.8b2be4631dc9c6144366.jpg",
@@ -34,11 +32,11 @@
     "static/media/youtube-link.png": "/static/media/youtube-link.6f9e32ba8209c71da075.png",
     "static/media/Email.png": "/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/index.html",
-    "main.61b174aa.css.map": "/static/css/main.61b174aa.css.map",
-    "main.30b359fa.js.map": "/static/js/main.30b359fa.js.map"
+    "main.4cd14c1e.css.map": "/static/css/main.4cd14c1e.css.map",
+    "main.131ccdbc.js.map": "/static/js/main.131ccdbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.61b174aa.css",
-    "static/js/main.30b359fa.js"
+    "static/css/main.4cd14c1e.css",
+    "static/js/main.131ccdbc.js"
   ]
 }
