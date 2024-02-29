@@ -4,6 +4,11 @@
 ### Optimized code base for an up and coming bands webpage.  
 #### Feel free to check out the live site! [LuvSikAngel.com](https://luvsikangel.com)
 
+## Currently Under Construction!
+
+### Nearing the final draft of [LuvSikAngel.com](https://luvsikangel.com). Check back soon to see the improvements!
+
+
 ## Tech Stack!
 
 <p align="center">
