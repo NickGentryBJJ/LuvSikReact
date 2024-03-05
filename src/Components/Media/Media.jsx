@@ -68,10 +68,6 @@ function Media() {
                             alt="LuvSikAngel" />
                         <img 
                             className="gallery-image" 
-                            src={require("../../images/galleryPhotos/IMG_0162(1).jpg")} 
-                            alt="LuvSikAngel" />
-                        <img 
-                            className="gallery-image" 
                             src={require("../../images/galleryPhotos/IMG_0163.jpg")} 
                             alt="LuvSikAngel" />
                         <img 
