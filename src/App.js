@@ -1,3 +1,4 @@
+import AboutIndex from "./Components/About/AboutIndex/AboutIndex";
 import Footer from "./Components/Footer/Footer";
 import Media from "./Components/Media/Media";
 import NavBar from "./Components/NavBar/NavBar";
@@ -11,6 +12,7 @@ function App() {
       <Top/>
       <Shows/>
       <Media/>
+      <AboutIndex/>
       <Footer/>
     </>
   );
