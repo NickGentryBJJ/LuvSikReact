@@ -41,7 +41,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(253deg, #9f009fbf, #03038ac9);    border-radius: 25px;
+    background: linear-gradient(253deg, #9f009fbf, #03038ac9);    
+    border-radius: 25px;
     width: 80%;
 }
 .media-wrap{

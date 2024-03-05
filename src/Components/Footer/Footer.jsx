@@ -28,15 +28,6 @@ function Footer() {
                                 </a>
                                 <a 
                                     target="_blank" 
-                                    className="instagram-link" 
-                                    href="https://www.instagram.com/explore/tags/luvsikangel/">
-                                        <img 
-                                            className="instagram-link" 
-                                            src={require("../../images/insta-link.png")}
-                                            alt="Instagram"/>
-                                </a>
-                                <a 
-                                    target="_blank" 
                                     className="facebook-link" 
                                     href="https://facebook.com/luvsikangel/">
                                         <img 

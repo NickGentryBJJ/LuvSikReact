@@ -4,4 +4,26 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
+    width: 70%;
+    background: linear-gradient(253deg, #9f009fbf, #03038ac9);    
+    padding: 5%;
+    padding-bottom: 0%;
+    border-radius: 25px;
+}
+.about-index-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+.about-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+    color: #b4b4ff;
+    text-shadow: 8px 8px 4px black;
 }

@@ -1,4 +1,30 @@
-.about-index-item-container {
+.about-index-item-wrapper {
     font-size: 40px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.rocker-image{
+    width: 10rem;
+    border-radius: 45px;
+}
+.rocker-tag{
+    display: flex;
+    justify-content: space-around;
+}
+.rocker-name{
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    color: #b4b4ff;
+    text-shadow: 4px 4px 4px black;
+}
+.rocker-desc{
+    margin-bottom: 50px;
+}
+.rocker-inst{
+    display: flex;
+    justify-content: center;
 }
