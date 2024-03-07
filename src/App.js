@@ -2,7 +2,7 @@ import AboutIndex from "./Components/About/AboutIndex/AboutIndex";
 import Footer from "./Components/Footer/Footer";
 import Media from "./Components/Media/Media";
 import NavBar from "./Components/NavBar/NavBar";
-import Shows from "./Components/Shows/Shows";
+import ShowIndex from "./Components/Shows/ShowIndex/ShowIndex";
 import Top from "./Components/Top/Top";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <>
       <NavBar/>
       <Top/>
-      <Shows/>
+      <ShowIndex/>
       <Media/>
-      <AboutIndex/>
+      {/* <AboutIndex/> */}
       <Footer/>
     </>
   );

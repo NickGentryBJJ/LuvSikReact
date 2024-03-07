@@ -1,0 +1,41 @@
+.show-item-wrapper{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.date-section {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 8px; 
+}
+.month-day-text {
+    color: #fff; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.time-text {
+    color: #ffd700; 
+}
+.maps-link{
+    text-decoration: none;    
+}
+.venue {
+    font-family: 'Roboto', sans-serif; 
+}
+.location {
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 55px;
+    color: #b4b4ff;
+    text-shadow: 4px 4px 4px black;
+    transition: color 0.3s ease; 
+}
+.location:hover {
+    color: #ffd700; 
+}
