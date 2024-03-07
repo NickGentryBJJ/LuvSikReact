@@ -21,8 +21,13 @@
     color: #b4b4ff;
     text-shadow: 4px 4px 4px black;
 }
-.rocker-desc{
-    margin-bottom: 50px;
+.rocker-desc {
+    font-family: 'Dosis', sans-serif; 
+    font-size: 36px;
+    color: #b4b4ff; 
+    margin-bottom: 50px; 
+    text-shadow: 2px 2px 2px black;
+    line-height: 55px;
 }
 .rocker-inst{
     display: flex;

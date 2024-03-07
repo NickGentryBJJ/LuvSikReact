@@ -41,7 +41,7 @@ html{
     display: flex;
     flex-direction: row;
     align-self: baseline;
-    border-radius: 45%;
+    border-radius: 10px;
 }
 .perf-vid{
     min-height: 340px;
