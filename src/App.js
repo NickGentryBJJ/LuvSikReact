@@ -12,7 +12,7 @@ function App() {
       <Top/>
       <ShowIndex/>
       <Media/>
-      <AboutIndex/>
+      {/* <AboutIndex/> */}
       <Footer/>
     </>
   );

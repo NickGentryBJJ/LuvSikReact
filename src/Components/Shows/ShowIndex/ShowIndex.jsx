@@ -8,7 +8,7 @@ function ShowIndex() {
         "FA": "Farington's",
         "PSB": "Pine Street Bar",
         "PISS": "Pioneer Saloon",
-        "MHBC": "Mike Hess Brew Club"
+        "MHBC": "Mike Hess Brewing"
     };
     const dates = {
         "FA": {

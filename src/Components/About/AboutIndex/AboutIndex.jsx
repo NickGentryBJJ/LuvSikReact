@@ -3,7 +3,7 @@ import "./AboutIndex.css";
 import AboutIndexItem from "../AboutIndexItem/AboutIndexItem";
 
 function AboutIndex() {
-    const names = ["Angel", "Rick"];
+    const names = ["Angel", "Rick", "Dave", "Joe"];
     return (
         <div className="about-index-wrapper">
             <div className="about-index-container">
