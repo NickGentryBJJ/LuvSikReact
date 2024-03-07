@@ -19,7 +19,6 @@
 
 #
 <p align="center">
-In this React project, I leveraged npm for package management and utilized webpack as the bundler. These tools played a crucial role in streamlining the development process and optimizing the project's build pipeline, showcasing my proficiency with industry-standard tools and workflows.<br/>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-ar21.svg"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg"></code>
