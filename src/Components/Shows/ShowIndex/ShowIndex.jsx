@@ -5,7 +5,7 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 function ShowIndex() {
     const locations = {  // Location Abbreviations
         "CJ": "CJ's Saloon",
-        "FA": "Farington's",
+        "FA": "Farrington's",
         "PSB": "Pine Street Bar",
         "PISS": "Pioneer Saloon",
         "MHBC": "Mike Hess Brewing"

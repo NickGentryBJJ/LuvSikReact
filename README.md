@@ -32,15 +32,17 @@ In this React project, I leveraged npm for package management and utilized webpa
 ## Code Snippet
 
 #
-## Functionality
-
-#
 ## Mobile or Desktop Compatability!
 
 <p align="center">
     Thanks to its mobile-friendly styling and carefully adjusted layout, our application ensures an intuitive user experience and easy digestion of information, regardless of the device being used for scrolling.
+    <img align="center" src="./ReadMePics/Desktop.png"/>
 <p/>
 
+#
+  <p align="center">
+    <img align="center" width="25%" src="./ReadMePics/Mobile.jpg"/>
+  </p>
 #
 ## Deployment!
 
