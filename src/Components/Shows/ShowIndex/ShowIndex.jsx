@@ -1,7 +1,8 @@
 import React from "react";
-import './Shows.css';
+import './ShowIndex.css';
+import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
-function Shows() {
+function ShowIndex() {
     const locations = {  // Location Legend
         "CJ": "CJ's Saloon",
         "RJ": "Retro Junkie",
@@ -29,9 +30,9 @@ function Shows() {
     return (
         <div id="show-section">
             <div className="show-container" >
-
+                <ShowIndexItem location={locations["FA"]} month={dates["FA"].month} day={dates["FA"].day} time={dates["FA"].time} />
             </div>
         </div>
     );
 };
-export default Shows;
+export default ShowIndex;
