@@ -1,14 +1,21 @@
 .show-item-wrapper{
     display: flex;
     align-items: center;
-    justify-content: start;
     width: 100%;
-    gap: 20%;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    gap: 15%;
 }
 .location{
+    display: flex;
     font-size: 40px;
     color: white;
+    min-width: 364px;
 }
 .maps-link{
     text-decoration: none;    
+}
+.date-section {
+    font-size: 28px;
+    min-width: 222px;
 }
