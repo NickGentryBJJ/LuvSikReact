@@ -12,32 +12,37 @@ function ShowIndex() {
     };
     const dates = {
         "FA": {
-            "month": "April",
+            "month": "January",
             "day": "12th",
-            "time": "8:00PM - 12AM"
+            "time": "8:00PM - 12AM",
+            "year": "2022"
         },
         "PSB": {
             "month": "May",
             "day": "25th",
-            "time": "9:00PM - 1:00AM"
+            "time": "9:00PM - 1:00AM",
+            "year": "2024"
         },
         "MHBC": {
             "month": "June",
             "day": "9th",
-            "time": "4:00pm - 8:00pm"
+            "time": "4:00pm - 8:00pm",
+            "year": "2024"
         },
         "MHBC2": {
             "month": "June",
             "day": "23rd",
-            "time": "5:00PM - 7:30PM"
+            "time": "5:00PM - 7:30PM",
+            "year": "2024"
         },
         "PISS": {
             "month": "August",
             "day": "10th",
-            "time": "8:30PM - 12AM"
+            "time": "8:30PM - 12AM",
+            "year": "2024"
         }
     };
-        return (
+    return (
         <div id="show-section">
             <div className="show-container" >
                 <h1 className="show-title">

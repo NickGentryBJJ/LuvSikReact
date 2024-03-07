@@ -15,7 +15,22 @@ function ShowIndexItem(props) {
     return (
         <div className="show-item-wrapper">
             <div className="show-item">
-                {location}, {month}, {day}, {time}
+                <div className="date-section">
+                    <div className="month">
+                        {month}
+                    </div>
+                    <div className="day">
+                        {day}
+                    </div>
+                    <div className="time">
+                        {time}
+                    </div>
+                </div>
+                <div className="venue">
+                    <a href={locations[location]}>
+                        {location}
+                    </a>
+                </div>
             </div>
         </div>
     )
