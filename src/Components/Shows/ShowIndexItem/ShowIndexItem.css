@@ -39,3 +39,16 @@
 .location:hover {
     color: #ffd700; 
 }
+@media only screen and (max-width: 768px) {
+    .show-item-wrapper{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .location{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .date-section{
+        font-size: 24px;
+    }
+}

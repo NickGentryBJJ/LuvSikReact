@@ -176,7 +176,7 @@
 }
 .gigsalad-link{
     width: 5rem;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 /* MOBILE CSS */
 @media only screen and (max-width: 768px) {
@@ -248,14 +248,5 @@
     }
     .media-container{
         display: inline-block;
-    }
-    .gigsalad-link{
-        margin-left: 7px;
-    }
-    .facebook-link, .gigsalad-link{
-        margin-top: 10%;
-    }
-    #show-section{
-        padding-top: 70px;
     }
 }

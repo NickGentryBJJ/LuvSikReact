@@ -27,3 +27,12 @@
     color: #b4b4ff;
     text-shadow: 8px 8px 4px black;
 }
+@media only screen and (max-width: 768px) {
+    .about-index-container{
+        width: 85%;
+        padding-top: 7%;
+    }
+    .about-title{
+        font-size: 50px;
+    }
+}

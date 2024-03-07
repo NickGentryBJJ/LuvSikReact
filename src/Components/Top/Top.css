@@ -67,6 +67,6 @@ html{
     }
     .perf-vid{
         min-height: 310px;
-        width: 100%;
+        width: 100vw;
     }
 }
