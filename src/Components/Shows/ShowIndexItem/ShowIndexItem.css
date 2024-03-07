@@ -1,4 +1,14 @@
-.show-item{
+.show-item-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 20%;
+}
+.location{
     font-size: 40px;
     color: white;
+}
+.maps-link{
+    text-decoration: none;    
 }

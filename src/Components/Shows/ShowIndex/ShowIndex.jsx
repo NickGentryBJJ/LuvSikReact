@@ -12,10 +12,10 @@ function ShowIndex() {
     };
     const dates = {
         "FA": {
-            "month": "January",
+            "month": "April",
             "day": "12th",
-            "time": "8:00PM - 12AM",
-            "year": "2022"
+            "time": "8:00PM - 12:00AM",
+            "year": "2024"
         },
         "PSB": {
             "month": "May",
@@ -38,7 +38,7 @@ function ShowIndex() {
         "PISS": {
             "month": "August",
             "day": "10th",
-            "time": "8:30PM - 12AM",
+            "time": "8:30PM - 12:00AM",
             "year": "2024"
         }
     };
@@ -48,11 +48,11 @@ function ShowIndex() {
                 <h1 className="show-title">
                     LuvSikAngel Live!
                 </h1>
-                <ShowIndexItem location={locations["FA"]} month={dates["FA"].month} day={dates["FA"].day} time={dates["FA"].time} />
-                <ShowIndexItem location={locations["PSB"]} month={dates["PSB"].month} day={dates["PSB"].day} time={dates["PSB"].time} />
-                <ShowIndexItem location={locations["MHBC"]} month={dates["MHBC"].month} day={dates["MHBC"].day} time={dates["MHBC"].time} />
-                <ShowIndexItem location={locations["MHBC"]} month={dates["MHBC2"].month} day={dates["MHBC2"].day} time={dates["MHBC2"].time} />
-                <ShowIndexItem location={locations["PISS"]} month={dates["PISS"].month} day={dates["PISS"].day} time={dates["PISS"].time} />
+                <ShowIndexItem year ={dates["FA"].year} location={locations["FA"]} month={dates["FA"].month} day={dates["FA"].day} time={dates["FA"].time} />
+                <ShowIndexItem year ={dates["PSB"].year} location={locations["PSB"]} month={dates["PSB"].month} day={dates["PSB"].day} time={dates["PSB"].time} />
+                <ShowIndexItem year ={dates["MHBC"].year} location={locations["MHBC"]} month={dates["MHBC"].month} day={dates["MHBC"].day} time={dates["MHBC"].time} />
+                <ShowIndexItem year ={dates["MHBC2"].year} location={locations["MHBC"]} month={dates["MHBC2"].month} day={dates["MHBC2"].day} time={dates["MHBC2"].time} />
+                <ShowIndexItem year ={dates["PISS"].year} location={locations["PISS"]} month={dates["PISS"].month} day={dates["PISS"].day} time={dates["PISS"].time} />
             </div>
         </div>
     );
