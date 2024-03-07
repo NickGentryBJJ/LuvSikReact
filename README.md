@@ -26,12 +26,6 @@ In this React project, I leveraged npm for package management and utilized webpa
 <p/>
 
 #
-## Features and Code!
-
-#
-## Code Snippet
-
-#
 ## Mobile or Desktop Compatability!
 
 <p align="center">
@@ -43,6 +37,7 @@ In this React project, I leveraged npm for package management and utilized webpa
   <p align="center">
     <img align="center" width="25%" src="./ReadMePics/Mobile.jpg"/>
   </p>
+  
 #
 ## Deployment!
 
