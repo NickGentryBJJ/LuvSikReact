@@ -8,7 +8,8 @@ function ShowIndexItem(props) {
     //     "Retro Junkie":,
     //     "Farington's":,
     //     "Pine Street Bar:",
-    //     "Pioneer Saloon":
+    //     "Pioneer Saloon":,
+    //      "Mike Hess Brew Club"
     // }
 
     return (

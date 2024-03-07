@@ -1,0 +1,24 @@
+#show-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.show-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(253deg, #9f009fbf, #03038ac9);    
+    border-radius: 25px;
+    width: 80%;
+}
+.show-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color: #b4b4ff;
+    text-shadow: 8px 8px 4px black;
+}
