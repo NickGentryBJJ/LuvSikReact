@@ -11,7 +11,6 @@ function ShowIndexItem(props) {
         "Pioneer Saloon": "",
         "Mike Hess Brew Club": ""
     };
-
     return (
         <div className="show-item-wrapper">
             <div className="date-section">

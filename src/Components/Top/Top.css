@@ -1,5 +1,5 @@
 /* TOP FUNCTIONALITY */
-@keyframes diagonalSlideLogo {
+/* @keyframes diagonalSlideLogo {
     from {
         transform: translate(-50vw, -50vh);
         opacity: 0;
@@ -18,13 +18,13 @@
         transform: translate(0, 0);
         opacity: 1;
     }
-}
-.logo {
+} */
+/* .logo {
     animation: diagonalSlideLogo 1.5s ease-out forwards;
 }
 .perf-vid {
     animation: diagonalSlideVideo 1.5s ease-out forwards;
-}
+} */
 html{
     scroll-behavior: smooth; 
 }
