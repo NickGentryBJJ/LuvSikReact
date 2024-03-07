@@ -26,6 +26,22 @@ In this React project, I leveraged npm for package management and utilized webpa
 <p/>
 
 #
+## Features and Code!
+
+#
+## Code Snippet
+
+#
+## Functionality
+
+#
+## Mobile or Desktop Compatability!
+
+<p align="center">
+    Thanks to its mobile-friendly styling and carefully adjusted layout, our application ensures an intuitive user experience and easy digestion of information, regardless of the device being used for scrolling.
+<p/>
+
+#
 ## Deployment!
 
 ### Deployed and stored using Github!
@@ -34,19 +50,7 @@ In this React project, I leveraged npm for package management and utilized webpa
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
 <p/>
 
-## Features and Code!
-
-## Code Snippet
-    
-## Functionality
-
-
-## Mobile or Desktop Compatability!
-
-<p align="center">
-    Thanks to its mobile-friendly styling and carefully adjusted layout, our application ensures an intuitive user experience and easy digestion of information, regardless of the device being used for scrolling.
-<p/>
-
+#
 ## Developer
 
 ### [Nicholas Gentry](https://www.linkedin.com/in/nicholas-gentry-2721451b2/)
