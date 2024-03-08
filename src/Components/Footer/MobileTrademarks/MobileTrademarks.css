@@ -1,0 +1,81 @@
+.bottom-footer-wrapper-mobile{
+    display: none;
+}
+.my-row {
+    font-size: 13.5px;
+    color: #b4b4ff;
+    margin-bottom: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.languages{
+    width: 65%;
+    margin-left: 14.5%;
+    color: #b4b4ff;
+}
+.meh{
+    width: 70%;
+    margin-left: 13%;
+    color: #b4b4ff;
+}
+.host  {
+    color: #b4b4ff;;
+}
+.git, .linked-in{
+    width: 3rem;
+    display: inline-block;
+    background-color: #b4b4ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.git:hover, .linked-in:hover {
+    background-color: #05ffeec9;
+}
+.git-link, .linked-in-link {
+    display: block;
+}
+.git-linked-cont{
+    display: flex;
+    gap: 40px;
+}
+.connect-with-me-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3%;
+}
+@media only screen and (max-width: 768px) {
+    .bottom-footer-wrapper-mobile{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+    }
+    .bottom-footer-container{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .my-row{
+        font-size: 12px;
+    }
+    .host{
+        font-size: 14px;
+    }
+    .connect-with-me-wrapper{
+        gap: 20px;
+    }
+    .git, .linked-in{
+        width: 3rem;
+    }
+}
