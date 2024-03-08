@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import Social from "../Footer/Social/Social"
+import MobileTrademarks from "../Footer/MobileTrademarks/MobileTrademarks"
+import DesktopTrademarks from "../Footer/DesktopTrademarks/DesktopTrademarks"
 
 function Footer() {
     return (
@@ -15,59 +17,7 @@ function Footer() {
                             Thank you for visiting!
                         </span>
                         <Social/>
-                        {/* <!-- BOTTOM FOOTER TRADEMARKS MOBILE --> */}
-                        <div className="bottom-footer-wrapper-mobile" >
-                            <div className="bottom-footer-container">
-                                <div className="my-row">
-                                    <span className="host">
-                                        Web-Developer
-                                    </span>
-                                    <span className="host">
-                                        Nick Gentry
-                                    </span>
-                                </div>
-                                <div className="my-row">
-                                    <span className="host">
-                                        Javascript
-                                    </span>
-                                    <span className="host">
-                                        React
-                                    </span>
-                                    <span className="host">
-                                        CSS
-                                    </span>
-                                </div>
-                                <div className="my-row">
-                                    <span className="host">
-                                        Hosted on Github
-                                    </span>
-                                </div>
-                                <div className="connect-with-me-wrapper">
-                                    <div className="git-linked-cont">
-                                        <a 
-                                            target="_blank" 
-                                            rel="noreferrer" 
-                                            className='git-link' 
-                                            href="https://github.com/NickGentryBJJ">
-                                                <img 
-                                                    className="git" 
-                                                    src={require("../../images/github_2111425.png")}
-                                                    alt="Github"/>
-                                        </a>
-                                        <a 
-                                            target="_blank" 
-                                            rel="noreferrer" 
-                                            className='linked-in-link' 
-                                            href="https://www.linkedin.com/in/nicholas-gentry-2721451b2/">
-                                                <img 
-                                                    className="linked-in" 
-                                                    src={require("../../images/linkedin_1384088.png")}
-                                                    alt="LinkedIn"/>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>        
+                        <MobileTrademarks/>        
                     </div>
                     {/* <!-- CONTACT BUTTONS --> */}
                     <div className="contact-foot">
@@ -89,59 +39,7 @@ function Footer() {
                         </div>
                     </div> 
                 </div>
-                {/* <!-- BOTTOM FOOTER TRADEMARKS (DESKTOP) --> */}
-                <div className="bottom-footer-wrapper">
-                    <div className="bottom-footer-container">
-                        <div className="my-row meh">
-                            <span className="host">
-                                Web-Designer
-                            </span>
-                            <span className="host">
-                                Nick Gentry
-                            </span>
-                        </div>
-                        <div className="my-row languages">
-                            <span className="host jvscrpt">
-                                Javascript
-                            </span>
-                            <span className="host htmltaa">
-                                React
-                            </span>
-                            <span className="host">
-                                CSS
-                            </span>
-                        </div>
-                        <div className="my-row">
-                            <span className="host">
-                                Hosted on Github
-                            </span>
-                        </div>
-                        <div className="connect-with-me-wrapper">
-                            <div className="git-linked-cont">
-                                <a 
-                                    rel="noreferrer" 
-                                    target="_blank" 
-                                    className='git-link' 
-                                    href="https://github.com/NickGentryBJJ">
-                                        <img 
-                                            className="git" 
-                                            src={require("../../images/github_2111425.png")}
-                                            alt="Github"/>
-                                </a>
-                                <a 
-                                    rel="noreferrer" 
-                                    target="_blank" 
-                                    className='linked-in-link' 
-                                    href="https://www.linkedin.com/in/nicholas-gentry-2721451b2/">
-                                        <img 
-                                            className="linked-in" 
-                                            src={require("../../images/linkedin_1384088.png")} 
-                                            alt="LinkedIn"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <DesktopTrademarks/>
             </div>
         </footer>     
     );
