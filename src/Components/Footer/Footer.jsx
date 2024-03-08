@@ -39,7 +39,7 @@ function Footer() {
                         </div>
                     </div> 
                 </div>
-                <DesktopTrademarks/>
+                <DesktopTrademarks />
             </div>
         </footer>     
     );
