@@ -19,6 +19,7 @@ function Footer() {
                             <div className="media-container">
                                 <a 
                                     target="_blank" 
+                                    rel="noreferrer"
                                     className="youtube-link" 
                                     href="https://www.youtube.com/watch?v=1sivrmZTbXk">
                                         <img 
@@ -28,6 +29,7 @@ function Footer() {
                                 </a>
                                 <a 
                                     target="_blank" 
+                                    rel="noreferrer"
                                     className="facebook-link" 
                                     href="https://facebook.com/luvsikangel/">
                                         <img 
@@ -37,6 +39,7 @@ function Footer() {
                                 </a>
                                 <a 
                                     target="_blank" 
+                                    rel="noreferrer"
                                     className="gigsalad-link" 
                                     href="https://www.gigsalad.com/luvsikangel_concord1">
                                         <img 

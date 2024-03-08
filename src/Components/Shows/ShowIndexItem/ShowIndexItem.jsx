@@ -26,7 +26,7 @@ function ShowIndexItem(props) {
                 </div>
             </div>
             <div className="venue">
-                <a className="maps-link" href={locations[location]} target="_blank">
+                <a className="maps-link" href={locations[location]} target="_blank" rel="noreferrer">
                     <span className="location">
                         {location}
                     </span>
