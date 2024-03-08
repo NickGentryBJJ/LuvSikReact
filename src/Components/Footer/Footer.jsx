@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
+import Social from "../Footer/Social/Social"
 
 function Footer() {
     return (
         <footer id="contact-section">
-            {/* <!-- CONTACT SECTION --> */}
             <div  className="footer-container">
                 <div className="footer-wrapper">
                     <div className="foot-left">

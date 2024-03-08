@@ -156,28 +156,6 @@
 .mobile{
     display: none;
 }
-.media-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 15%;
-    gap: 20px;
-}
-.youtube-link{
-    width: 6rem;
-}
-.instagram-link{
-    width: 5rem;
-}
-.facebook-link{
-    width: 5rem;
-}
-.gigsalad-link{
-    width: 5rem;
-    border-radius: 20px;
-}
 /* MOBILE CSS */
 @media only screen and (max-width: 768px) {
     .mobile-phone{
@@ -245,8 +223,5 @@
     }
     .last-words-footer{
         font-size: 16px;
-    }
-    .media-container{
-        display: inline-block;
     }
 }

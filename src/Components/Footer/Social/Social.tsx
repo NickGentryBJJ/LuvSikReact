@@ -9,9 +9,9 @@ function Social(): JSX.Element {
         "gig-salad": "https://www.gigsalad.com/luvsikangel_concord1"
     };
     const images: Record<string, string> = {
-        "youtube": require("../../images/youtube-link.png"),
-        "facebook": require("../../images/facebook-icon.png"),
-        "gig-salad": require("../../images/band_icon.png")
+        "youtube": require("../../../images/youtube-link.png"),
+        "facebook": require("../../../images/facebook-icon.png"),
+        "gig-salad": require("../../../images/band_icon.png")
     };
     return (
         <div className="social-container">
