@@ -14,41 +14,7 @@ function Footer() {
                         <span className="last-words-footer">
                             Thank you for visiting!
                         </span>
-                        {/* <!-- MEDIA SECTION --> */}
-                        <div className="media-wrapper">
-                            <div className="media-container">
-                                <a 
-                                    target="_blank" 
-                                    rel="noreferrer"
-                                    className="youtube-link" 
-                                    href="https://www.youtube.com/watch?v=1sivrmZTbXk">
-                                        <img 
-                                            className="youtube-link" 
-                                            src={require("../../images/youtube-link.png")} 
-                                            alt="Youtube"/>
-                                </a>
-                                <a 
-                                    target="_blank" 
-                                    rel="noreferrer"
-                                    className="facebook-link" 
-                                    href="https://facebook.com/luvsikangel/">
-                                        <img 
-                                            className="facebook-link" 
-                                            src={require("../../images/facebook-icon.png" )}
-                                            alt="Facebook"/>
-                                </a>
-                                <a 
-                                    target="_blank" 
-                                    rel="noreferrer"
-                                    className="gigsalad-link" 
-                                    href="https://www.gigsalad.com/luvsikangel_concord1">
-                                        <img 
-                                            className="gigsalad-link" 
-                                            src={require("../../images/band_icon.png")}
-                                            alt="gigsalad"/>
-                                </a>
-                            </div>
-                        </div>
+                        <Social/>
                         {/* <!-- BOTTOM FOOTER TRADEMARKS MOBILE --> */}
                         <div className="bottom-footer-wrapper-mobile" >
                             <div className="bottom-footer-container">
