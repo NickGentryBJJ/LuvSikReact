@@ -1,7 +1,7 @@
 import React from "react";
 import './Top.css';
 
-function Top() {
+function Top(): JSX.Element {
     return (
         <div className="top">
             <img className="logo" src={require("../../images/band_icon.png")} alt=""/>       
@@ -10,8 +10,7 @@ function Top() {
             className="perf-vid"
             src="https://www.youtube.com/embed/uwVuXDFLWao?si=z1D1wBjWTSTsnITq"
             title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"/>
         </div>
     )
 }
