@@ -2,8 +2,8 @@ import React from "react";
 import './ShowIndex.css';
 import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
-function ShowIndex() {
-    const locations = {  // Location Abbreviations
+function ShowIndex(): JSX.Element {
+    const locations: Record<string, string> = {  // Location Abbreviations
         "CJ": "CJ's Saloon",
         "FA": "Farrington's",
         "PSB": "Pine Street Bar",
@@ -11,7 +11,7 @@ function ShowIndex() {
         "MHBC": "Mike Hess Brewing",
         "WI": "WiseGirl"
     };
-    const dates = {
+    const dates: Record<string, Record<string, string>> = {
         "FA": {
             "month": "April",
             "day": "12th",
