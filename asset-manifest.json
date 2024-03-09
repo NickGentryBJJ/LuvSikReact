@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.09e23c5c.css",
-    "main.js": "/static/js/main.de56b95e.js",
+    "main.js": "/static/js/main.8222b8e2.js",
     "static/media/background.png": "/static/media/background.6ac44c4c8ebbcb336520.png",
     "static/media/guitar.jpg": "/static/media/guitar.2a817a8a28d30eca9f9b.jpg",
     "static/media/band_icon.png": "/static/media/band_icon.91864b48fd4c244bbfbd.png",
@@ -31,10 +31,10 @@
     "static/media/Email.png": "/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/index.html",
     "main.09e23c5c.css.map": "/static/css/main.09e23c5c.css.map",
-    "main.de56b95e.js.map": "/static/js/main.de56b95e.js.map"
+    "main.8222b8e2.js.map": "/static/js/main.8222b8e2.js.map"
   },
   "entrypoints": [
     "static/css/main.09e23c5c.css",
-    "static/js/main.de56b95e.js"
+    "static/js/main.8222b8e2.js"
   ]
 }
