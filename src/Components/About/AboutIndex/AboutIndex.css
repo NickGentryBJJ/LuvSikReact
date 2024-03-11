@@ -16,7 +16,7 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
-    margin-top: 15%;
+    padding-top: 70px;
 }
 .about-title{
     display: flex;
