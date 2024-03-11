@@ -63,14 +63,14 @@ function ShowIndex(): JSX.Element {
         "MHBC": {
             "month": "June",
             "day": "23rd",
-            "time": "5:00pm - 7:30pm",
+            "time": "5:00PM - 7:30PM",
             "year": "2024",
             "check": "23"
         },
         "WI": {
             "month": "July",
             "day": "19th",
-            "time": "7:00pm - 10:00pm",
+            "time": "7:00PM - 10:00PM",
             "year": "2024",
             "check": "19"
         },
