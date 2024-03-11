@@ -13,7 +13,6 @@
 
 <p align="center">
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></code>
-<code><img width="12%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code>
 <code><img width="12%" src="https://download.logo.wine/logo/TypeScript/TypeScript-Logo.wine.png"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"></code><br/>
 <p/>
