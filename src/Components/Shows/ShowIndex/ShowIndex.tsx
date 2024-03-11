@@ -82,15 +82,16 @@ function ShowIndex(): JSX.Element {
             "check": "10"
         }
     };
-    const currentDate: Date = new Date(); // for date validity check
     return (
         <div id="show-section">
             <div className="show-container" >
                 <h1 className="show-title">
                     LuvSikAngel Live!
                 </h1>                
-                {Object.entries(dates).map(([key, value]) => { // iterate through dates object
+                {/* ITERATE THROUGH DATES OBJECT */}
+                {Object.entries(dates).map(([key, value]: [string, Record<string, string>]): JSX.Element | null => { 
                     const showDate = new Date(`${value.year}-${value.month}-${value.check}`);
+                    const currentDate: Date = new Date();
                     if (showDate.getTime() >  currentDate.getTime()) { // ensure no old shows get displayed
                         return (
                             <ShowIndexItem // initialize showItem component for each valid date object
