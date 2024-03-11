@@ -20,7 +20,6 @@ function Footer(): JSX.Element {
                         <Social/>
                         <MobileTrademarks/>        
                     </div>
-                    {/* <!-- CONTACT BUTTONS --> */}
                     <ContactButtons/>
                 </div>
                 <DesktopTrademarks/>
