@@ -1,5 +1,9 @@
 import React from "react";
 import "./AboutIndexItem.css";
+import rickPic from "../../../images/galleryPhotos/IMG_5416.jpg";
+import angelPic from "../../../images/galleryPhotos/IMG_5429.jpg";
+import drumsPic from "../../../images/galleryPhotos/IMG_5442.jpg";
+import guitarPic from "../../../images/galleryPhotos/guitar.jpg";
 
 interface AboutIndexItemProps {
     name: string;
@@ -13,10 +17,10 @@ function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
     };
 
     const images: Record<string, string> = {
-        "Rick": require("../../../images/galleryPhotos/IMG_5416.jpg"),
-        "Angel": require("../../../images/galleryPhotos/IMG_5429.jpg")
-        // "Drums": require("../../../images/galleryPhotos/IMG_5442.jpg"),
-        // "Guitar": require("../../../images/galleryPhotos/guitar.jpg")
+        "Rick": rickPic,
+        "Angel": angelPic,
+        "Drums": drumsPic,
+        "Guitar": guitarPic 
     };
     return (
         <div className="about-index-item-wrapper">
