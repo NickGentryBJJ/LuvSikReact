@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactButtons.css";
+import emailPic from "../../../images/Email.png";
 
 function ContactButtons(): JSX.Element {
     return (
@@ -15,7 +16,7 @@ function ContactButtons(): JSX.Element {
                     <button className="email-button">
                         <img 
                             className="kokachin" 
-                            src={require("../../../images/Email.png")}
+                            src={emailPic}
                             alt="Email"/>
                     </button>
                 </a>

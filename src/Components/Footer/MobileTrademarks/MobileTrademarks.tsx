@@ -1,5 +1,8 @@
 import React from "react";
 import "./MobileTrademarks.css"
+import githubPic from "../../../images/github_2111425.png";
+import linkedInPic from "../../../images/linkedin_1384088.png";
+
 
 function MobileTrademarks(): JSX.Element {
     return (
@@ -38,7 +41,7 @@ function MobileTrademarks(): JSX.Element {
                             href="https://github.com/NickGentryBJJ">
                                 <img 
                                     className="git" 
-                                    src={require("../../../images/github_2111425.png")}
+                                    src={githubPic}
                                     alt="Github"/>
                         </a>
                         <a 
@@ -48,7 +51,7 @@ function MobileTrademarks(): JSX.Element {
                             href="https://www.linkedin.com/in/nicholas-gentry-2721451b2/">
                                 <img 
                                     className="linked-in" 
-                                    src={require("../../../images/linkedin_1384088.png")}
+                                    src={linkedInPic}
                                     alt="LinkedIn"/>
                         </a>
                     </div>
