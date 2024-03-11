@@ -1,10 +1,11 @@
 import React from "react";
 import './Top.css';
+import logo from "../../images/band_icon.png"
 
 function Top(): JSX.Element {
     return (
         <div className="top">
-            <img className="logo" src={require("../../images/band_icon.png")} alt=""/>       
+            <img className="logo" src={logo} alt=""/>       
             <iframe 
             id="performance"
             className="perf-vid"
