@@ -53,6 +53,11 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+#root{
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
+}
 @media only screen and  (max-width: 768px) {
 	body{
 		background-image: none;

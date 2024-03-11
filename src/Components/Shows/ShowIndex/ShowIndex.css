@@ -1,6 +1,6 @@
 #show-section {
-    padding-top: 70px;
     padding: 30px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,7 @@
     border-radius: 25px;
     width: 80%;
     gap: 45px;
+    align-self: center;
 }
 .show-title {
     margin-top: 20px;

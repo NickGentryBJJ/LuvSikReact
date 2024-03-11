@@ -4,7 +4,8 @@ import './NavBar.css';
 function NavBar() {
     function scrollToShows() {
         var aboutSection = document.getElementById('show-section');
-        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        var sectionTop = aboutSection.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({ top: sectionTop - 70, behavior: 'smooth' });
     }
     function scrollToMedia() {
         var mediaSection = document.getElementById('media-section');
