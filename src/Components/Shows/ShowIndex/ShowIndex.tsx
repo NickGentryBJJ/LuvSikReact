@@ -83,7 +83,7 @@ function ShowIndex(): JSX.Element {
         }
     };
     return (
-        <div className="show-container" id="show-section">
+        <div id="show-section">
             <h1 className="show-title">
                 LuvSikAngel Live!
             </h1>                

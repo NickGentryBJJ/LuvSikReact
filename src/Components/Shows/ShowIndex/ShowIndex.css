@@ -1,7 +1,5 @@
 #show-section {
     padding-top: 70px;
-}
-.show-container{
     padding: 30px;
     display: flex;
     flex-direction: column;
