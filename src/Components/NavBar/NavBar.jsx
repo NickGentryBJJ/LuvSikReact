@@ -14,6 +14,10 @@ function NavBar() {
         var contactSection = document.getElementById('contact-section');
         contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+    function scrollToAbout() {
+        var aboutSection = document.getElementById('about-section');
+        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
     // Risin' to the top!
     function keniBurke() {    
         const body = document.documentElement || document.body;
@@ -31,6 +35,7 @@ function NavBar() {
                 <div className="links">
                     <p onClick={scrollToShows} className="header-links">SHOWS</p>
                     <p onClick={scrollToMedia} className="header-links">GALLERY</p>
+                    <p onClick={scrollToAbout} className="header-links">ABOUT</p>
                     <p onClick={scrollToContact} className="header-links">CONTACT</p>
                 </div> 
         </div>

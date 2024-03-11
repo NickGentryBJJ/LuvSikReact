@@ -5,7 +5,7 @@ import AboutIndexItem from "../AboutIndexItem/AboutIndexItem";
 function AboutIndex(): JSX.Element {
     const names: string[] = ["Angel", "Rick"];
     return (
-        <div className="about-index-wrapper">
+        <div id="about-section" className="about-index-wrapper">
             <div className="about-index-container">
                 <h1 className="about-title">
                     Meet The Band!
