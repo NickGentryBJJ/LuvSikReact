@@ -45,12 +45,14 @@ html{
         justify-content: space-between;
         flex-direction: column;
         width: 100%;
-        margin-top: 28%;
+        margin-top: 115px;
+        gap: 10px;
     }
     .logo{
         width: 10rem;
         align-self: center;
         margin-bottom: 30px;
+        margin-left: 0;
     }
     .title2{
         font-size: 45px;
