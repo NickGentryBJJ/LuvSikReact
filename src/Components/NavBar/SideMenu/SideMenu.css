@@ -5,27 +5,49 @@
     cursor:pointer;
     text-decoration: none;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 55px;
+    color: #b4b4ff;
+    text-shadow: 4px 4px 4px black;
+    transition: color 0.3s ease; 
 }
-.header-links:hover{
-    color:#010000cb
+.header-links:hover {
+    color: #ffd700; 
+}
+.menu-wrapper {
+    margin-top: 70px;
+    display: flex;
+    position: fixed;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: linear-gradient(253deg, #9f009f, #03038a);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .links-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 40px;
-    margin-top: 70px;
-    position: fixed;
-    top: 0; 
-    right: 0; 
-    width: 400px; 
-    height: 100%;
-    background: linear-gradient(253deg, #9f009fbf, #03038ac9);
-    padding: 20px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
-
+.close-icon{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #b4b4ff;
+    padding: 1%;
+}
+.close-icon:hover{
+    background: #039dc796;
+}
 @media only screen and  (max-width: 768px) {
     .header-links{
         font-size: 16px;

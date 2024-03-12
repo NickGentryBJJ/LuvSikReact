@@ -1,5 +1,6 @@
 import React from "react";
 import "./SideMenu.css";
+import cross from "../../../images/cross.png";
 
 interface menuProps {
     setIsClicked: React.Dispatch<React.SetStateAction<boolean>>;
@@ -42,23 +43,31 @@ function SideMenu(props: menuProps) {
         setIsClicked(false);
     };
     return (
-        <div className="links-menu">
-            <p onClick={keniBurke} className="header-links">
-                HOME
-            </p>
-            <p onClick={scrollToShows} className="header-links">
-                SHOWS
-            </p>
-            <p onClick={scrollToMedia} className="header-links">
-                GALLERY
-            </p>
-            <p onClick={scrollToAbout} className="header-links">
-                ABOUT
-            </p>
-            <p onClick={scrollToContact} className="header-links">
-                CONTACT
-            </p>
-        </div> 
+        <div className="menu-wrapper">
+            <img 
+                src={cross} 
+                alt="Close" 
+                className="close-icon"
+                onClick={() => {setIsClicked(false)}}
+            />
+            <div className="links-menu">
+                <p onClick={keniBurke} className="header-links">
+                    Home
+                </p>
+                <p onClick={scrollToShows} className="header-links">
+                    Calender
+                </p>
+                <p onClick={scrollToMedia} className="header-links">
+                    Gallery
+                </p>
+                <p onClick={scrollToAbout} className="header-links">
+                    Meet The Band
+                </p>
+                <p onClick={scrollToContact} className="header-links">
+                    Contact
+                </p>
+            </div> 
+        </div>
     );
 };
 export default SideMenu;
