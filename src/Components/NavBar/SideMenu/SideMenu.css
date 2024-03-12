@@ -1,0 +1,33 @@
+.header-links{
+    margin:0px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    cursor:pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+.header-links:hover{
+    color:#010000cb
+}
+.links-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 70px;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    width: 400px; 
+    height: 100%;
+    background: linear-gradient(253deg, #9f009fbf, #03038ac9);
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+@media only screen and  (max-width: 768px) {
+    .header-links{
+        font-size: 16px;
+    }
+}
