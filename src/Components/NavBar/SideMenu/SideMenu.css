@@ -14,6 +14,7 @@
     color: #ffd700; 
 }
 .menu-wrapper {
+    z-index: 1000;
     margin-top: 70px;
     display: flex;
     position: fixed;
@@ -44,8 +45,30 @@
 .close-icon:hover{
     background: #039dc796;
 }
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .header-links{
         font-size: 16px;
+    }
+    .menu-wrapper {
+        align-items: center; 
+        width: 40%; 
+        height: auto; 
+        margin-top: 90px;
+        border-radius: 20px;
+    }
+    .links-menu {
+        margin-top: 20px; 
+        gap: 20px; 
+    }
+    .header-links {
+        font-size: 24px; 
+    }
+    .close-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: baseline;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

@@ -22,7 +22,7 @@ function Social(): JSX.Element {
             {names.map((name: string, index: number) => (
                 <div key={index}>
                     <a href={links[name]} target="_blank" rel="noreferrer" className="social-link" >
-                        <img src={images[name]} alt="name" className="social-image" />
+                        <img src={images[name]} alt="name" id={name} className="social-image" />
                     </a>
                 </div>
             ))};

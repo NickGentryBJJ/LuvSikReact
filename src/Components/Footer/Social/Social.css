@@ -15,8 +15,12 @@
 .social-link{
     display: flex;
 }
+#gig-salad{
+    margin-top: 10px;
+}
 @media only screen and (max-width: 768px) {
     .social-container{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
 }

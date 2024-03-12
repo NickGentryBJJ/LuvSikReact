@@ -5,7 +5,7 @@ import logo from "../../images/band_icon.png"
 function Splash(): JSX.Element {
     return (
         <div className="top">
-            <img className="logo" src={logo} alt=""/>       
+            <img className="logo" src={logo} alt="LuvSikAngel"/>       
             <iframe 
             id="performance"
             className="perf-vid"
