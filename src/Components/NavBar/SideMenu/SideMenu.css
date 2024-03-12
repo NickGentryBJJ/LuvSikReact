@@ -14,6 +14,7 @@
     color: #ffd700; 
 }
 .menu-wrapper {
+    border-top-left-radius: 20px;
     z-index: 1000;
     margin-top: 70px;
     display: flex;
@@ -54,7 +55,8 @@
         width: 40%; 
         height: auto; 
         margin-top: 90px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
         padding-top: 0;
     }
     .links-menu {
