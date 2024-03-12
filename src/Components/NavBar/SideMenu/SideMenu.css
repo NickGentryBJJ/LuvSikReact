@@ -55,6 +55,7 @@
         height: auto; 
         margin-top: 90px;
         border-radius: 20px;
+        padding-top: 0;
     }
     .links-menu {
         margin-top: 20px; 
