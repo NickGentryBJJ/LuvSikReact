@@ -42,6 +42,13 @@ function SideMenu(props: menuProps) {
         body.scrollIntoView({ behavior: 'smooth', block: 'start' });
         setIsClicked(false);
     };
+    const linkItems: Record<string, () => void> = {  
+        "Home": keniBurke,
+        "Calender": scrollToShows,
+        "Gallery": scrollToMedia,
+        "Meet The Band": scrollToAbout,
+        "Contact": scrollToContact
+    };
     return (
         <div className="menu-wrapper">
             <img 
@@ -51,21 +58,11 @@ function SideMenu(props: menuProps) {
                 onClick={() => {setIsClicked(false)}}
             />
             <div className="links-menu">
-                <p onClick={keniBurke} className="header-links">
-                    Home
-                </p>
-                <p onClick={scrollToShows} className="header-links">
-                    Calender
-                </p>
-                <p onClick={scrollToMedia} className="header-links">
-                    Gallery
-                </p>
-                <p onClick={scrollToAbout} className="header-links">
-                    Meet The Band
-                </p>
-                <p onClick={scrollToContact} className="header-links">
-                    Contact
-                </p>
+                {Object.entries(linkItems).map(([key, value]: [string, () => void]): JSX.Element => {
+                    return (
+                        <p onClick={value} className="header-links">{key}</p>
+                    )
+                })}
             </div> 
         </div>
     );

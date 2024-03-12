@@ -1,15 +1,11 @@
 .header-links{
-    margin:0px;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
     cursor:pointer;
     text-decoration: none;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 45px;
     display: flex;
     align-items: center;
     font-family: 'Dosis', sans-serif;
-    font-size: 55px;
     color: #b4b4ff;
     text-shadow: 4px 4px 4px black;
     transition: color 0.3s ease; 
@@ -27,7 +23,7 @@
     right: 0;
     width: 400px;
     height: 100%;
-    background: linear-gradient(253deg, #9f009f, #03038a);
+    background: linear-gradient(253deg, #00089f, #03038a);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
