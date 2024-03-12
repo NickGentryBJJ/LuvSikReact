@@ -6,7 +6,7 @@ import gigSaladPic from "../../../images/band_icon.png";
 
 
 function Social(): JSX.Element {
-    const names: string[] = ["youtube", "facebook", "gig-salad"]
+    const names: string[] = ["youtube", "facebook", "gig-salad"];
     const links: Record<string, string> = {
         "youtube": "https://www.youtube.com/watch?v=1sivrmZTbXk",
         "facebook": "https://facebook.com/luvsikangel/",
@@ -25,7 +25,7 @@ function Social(): JSX.Element {
                         <img src={images[name]} alt="name" id={name} className="social-image" />
                     </a>
                 </div>
-            ))};
+            ))}
         </div>
     );
 };
