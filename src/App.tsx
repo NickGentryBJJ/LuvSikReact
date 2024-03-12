@@ -4,13 +4,13 @@ import Footer from "./Components/Footer/Footer";
 import Media from "./Components/Media/Media";
 import NavBar from "./Components/NavBar/NavBar";
 import ShowIndex from "./Components/Shows/ShowIndex/ShowIndex";
-import Top from "./Components/Top/Top";
+import Splash from "./Components/Splash/Splash";
 
 function App(): JSX.Element {
   return (
     <>
       <NavBar/>
-      <Top/>
+      <Splash/>
       <ShowIndex/>
       <Media/>
       <AboutIndex/>
