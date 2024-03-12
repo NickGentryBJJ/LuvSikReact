@@ -1,9 +1,31 @@
 import React, { useEffect } from "react";
 import './Media.css';
+import angel from "../../images/galleryPhotos/IMG_5429.jpg";
+import rick from "../../images/galleryPhotos/IMG_5416.jpg";
+import drums from "../../images/galleryPhotos/IMG_5442.jpg";
+import guitar from "../../images/galleryPhotos/guitar.jpg";
+import aang from "../../images/galleryPhotos/IMG_0162.jpg";
+import kitara from "../../images/galleryPhotos/IMG_0163.jpg";
+import sokka from "../../images/galleryPhotos/IMG_5414.jpg";
+import suki from "../../images/galleryPhotos/IMG_5415.jpg";
+import momo from "../../images/galleryPhotos/IMG_5418.jpg";
+import bumi from "../../images/galleryPhotos/IMG_5426.jpg";
+import zuko from "../../images/galleryPhotos/IMG_5430.jpg";
+import ozai from "../../images/galleryPhotos/IMG_5431.jpg";
+import mai from "../../images/galleryPhotos/IMG_5433.jpg";
+import azula from "../../images/galleryPhotos/IMG_5434.jpg";
+import tylee from "../../images/galleryPhotos/IMG_5435.jpg";
+import toph from "../../images/galleryPhotos/IMG_5436.jpg";
+import jhao from "../../images/galleryPhotos/IMG_5437.jpg";
+import iroh from "../../images/galleryPhotos/IMG_5439.jpg";
+import ursa from "../../images/galleryPhotos/IMG_5440.jpg";
+import appa from "../../images/galleryPhotos/IMG_5441.jpg";
+import kyoshi from "../../images/galleryPhotos/IMG_5443.jpg";
+import roku from "../../images/galleryPhotos/IMG_0162.jpg";
 
 function Media(): JSX.Element {
-    const firstRowImgs: string[] = [require("../../images/galleryPhotos/IMG_5429.jpg"), require("../../images/galleryPhotos/IMG_5416.jpg"), require("../../images/galleryPhotos/IMG_5442.jpg"), require("../../images/galleryPhotos/guitar.jpg")]
-    const mainGalleryImgs: string[] = [require("../../images/galleryPhotos/IMG_0162.jpg"), require("../../images/galleryPhotos/IMG_0163.jpg"), require("../../images/galleryPhotos/IMG_5414.jpg"), require("../../images/galleryPhotos/IMG_5415.jpg"), require("../../images/galleryPhotos/IMG_5418.jpg"), require("../../images/galleryPhotos/IMG_5426.jpg"), require("../../images/galleryPhotos/IMG_5430.jpg"), require("../../images/galleryPhotos/IMG_5431.jpg"), require("../../images/galleryPhotos/IMG_5433.jpg"), require("../../images/galleryPhotos/IMG_5434.jpg"), require("../../images/galleryPhotos/IMG_5435.jpg"), require("../../images/galleryPhotos/IMG_5436.jpg"), require("../../images/galleryPhotos/IMG_5437.jpg"), require("../../images/galleryPhotos/IMG_5439.jpg"), require("../../images/galleryPhotos/IMG_5440.jpg"), require("../../images/galleryPhotos/IMG_5441.jpg"), require("../../images/galleryPhotos/IMG_5443.jpg"), require("../../images/galleryPhotos/IMG_0162.jpg")]        
+    const firstRowImgs: string[] = [angel, rick, drums, guitar]
+    const mainGalleryImgs: string[] = [aang, kitara, sokka, suki, momo, bumi, zuko, ozai, mai, azula, tylee, toph, jhao, iroh, ursa, appa, kyoshi, roku]        
     
     useEffect(() => {
         const images = document.querySelectorAll('.gill');
