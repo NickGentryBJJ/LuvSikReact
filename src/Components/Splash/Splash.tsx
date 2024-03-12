@@ -1,8 +1,8 @@
 import React from "react";
-import './Top.css';
+import './Splash.css';
 import logo from "../../images/band_icon.png"
 
-function Top(): JSX.Element {
+function Splash(): JSX.Element {
     return (
         <div className="top">
             <img className="logo" src={logo} alt=""/>       
@@ -11,8 +11,9 @@ function Top(): JSX.Element {
             className="perf-vid"
             src="https://www.youtube.com/embed/uwVuXDFLWao?si=z1D1wBjWTSTsnITq"
             title="YouTube video player" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"/>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            />
         </div>
     )
 }
-export default Top;
+export default Splash;
