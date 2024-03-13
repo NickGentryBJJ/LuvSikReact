@@ -13,9 +13,7 @@ function App(): JSX.Element {
   return (
     <>
       <NavBar isClicked={isClicked} setIsClicked={setIsClicked}/>
-      {isClicked && (
-        <SideMenu isClicked={isClicked} setIsClicked={setIsClicked}/>
-      )}
+      <SideMenu isClicked={isClicked} setIsClicked={setIsClicked}/>
       <Splash/>
       <ShowIndex/>
       <Media/>
