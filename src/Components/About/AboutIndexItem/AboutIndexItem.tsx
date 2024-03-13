@@ -34,14 +34,16 @@ function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
             <div className="rocker-tag">
                 <img className="rocker-image" src={rockers[name].image} alt={name} />
             </div>
-            <div className="rocker-desc">
+            <div className="rocker-desc-cont">
                 <div className="rocker-name">
                     {name}
                     <p className="instrument">
                         {rockers[name].instrument}
                     </p>
                 </div>
-                {rockers[name].description}
+                <p className="rocker-desc">
+                    {rockers[name].description}
+                </p>
             </div>
         </div>
     )

@@ -17,6 +17,7 @@
 .rocker-tag{
     display: flex;
     justify-content: space-around;
+    height: fit-content;
 }
 .rocker-name{
     display: flex;
@@ -26,7 +27,7 @@
     color: #fff;
     text-shadow: 4px 4px 4px black;
 }
-.rocker-desc {
+.rocker-desc-cont {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -36,13 +37,18 @@
     color: #fff; 
     text-shadow: 2px 2px 2px black;
     line-height: 55px;
+    flex-grow: 1; 
+}
+.rocker-desc{
+    font-size: 26px;
+    line-height: 2;
 }
 .instrument{
     padding-left: 30px;
     font-size: 34px;
 }
 @media only screen and (max-width: 768px) {
-    .rocker-desc{
+    .rocker-desc-cont{
         font-size: 26px;
         line-height: 45px;
     }
