@@ -66,7 +66,9 @@ function Media(): JSX.Element {
     return (
         <div id="media-section" className="media-wrap">
             <div className="media-cont">
-                <h1 className="gallery-title">We Are LuvSikAngel</h1>
+                <h1 className="gallery-title">
+                    We Are LuvSikAngel
+                </h1>
                 <div className="gallery-container">
                     <div className="first-row">
                         {firstRowImgs.map((imgSrc: string, index: number) => (

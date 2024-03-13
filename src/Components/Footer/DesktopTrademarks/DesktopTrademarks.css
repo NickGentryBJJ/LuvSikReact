@@ -1,14 +1,15 @@
 .bottom-footer-wrapper{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 .bottom-footer-container-d {
-    width: 30%;   
+    width: 80%;   
 }
 .my-row {
     font-size: 13.5px;
-    color: #b4b4ff;
+    color: #fff;
     margin-bottom: 9px;
     text-align: center;
     display: flex;
@@ -17,20 +18,20 @@
 .languages{
     width: 65%;
     margin-left: 14.5%;
-    color: #b4b4ff;
+    color: #fff;
 }
 .meh{
     width: 70%;
     margin-left: 13%;
-    color: #b4b4ff;
+    color: #fff;
 }
 .host  {
-    color: #b4b4ff;;
+    color: #fff;;
 }
 .git, .linked-in{
     width: 3rem;
     display: inline-block;
-    background-color: #b4b4ff;
+    background-color: #fff;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -39,7 +40,7 @@
     transition: background-color 0.3s;
 }
 .git:hover, .linked-in:hover {
-    background-color: #05ffeec9;
+    background-color: #4d4d4df5;
 }
 .git-link, .linked-in-link {
     display: block;

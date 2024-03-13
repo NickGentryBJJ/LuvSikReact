@@ -11,27 +11,37 @@ interface AboutIndexItemProps {
 
 function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
     const { name } = props;
-    const descriptions: Record<string, string> = {
-        "Rick": "Rick Gentry started playing trumpet in the 4th grade and developed a great ear for music. He started playing guitar as a freshman in high school then switched to bass after 4 years when the need came up to make a band with a close friend in high school. After 10 years of playing bass he stopped playing to focus on raising his kids. 25 years later he found out that playing music helps prevent people from getting dementia so he started to relearn guitar. Again after 4 years he switched back to bass and realized he is a bass player. His main influences are Flea, Luis Johnson, John Entwistle, and Duff McKagan which he regularly incorporates into the cover tunes we play. One thing for certain is Rick enjoys playing live which can be seen and felt during his performance.",
-        "Angel": "The lead singer of Luvsikangel has been performing on stage since she was young, her acting performance and theatrical background, makes her special and unique. Angel grew up with family members, who performed in many different bands, and have  played in many different cities and states, like New York and San Francisco. Angel grew up with the passion and talent to perform on stage and entertain."
-    };
-
-    const images: Record<string, string> = {
-        "Rick": rickPic,
-        "Angel": angelPic,
-        "Drums": drumsPic,
-        "Guitar": guitarPic 
-    };
+    const rockers: Record<string, Record<string, string>> = {
+        "Rick": {
+            "description": "Meet Rick Gentry, the ultimate groove maestro with a heart pulsating to the rhythm of bass! 🎸 From trumpet tunes in the fourth grade to shredding on guitar in high school, Rick's musical journey has been a wild ride fueled by passion and a killer ear for melodies. Picture this: a high school kid jamming on guitar, but fate had other plans. When the call for a bassist arose to form a band, Rick answered without hesitation, and the rest is history! For a solid decade, he laid down the foundation, slapping those bass strings like a seasoned pro. But life had its twists and turns. Rick put his bass aside to focus on raising his kids. Fast forward 25 years, and a revelation struck: music isn't just notes; it's a safeguard against forgetting who we are. Rick dusted off his guitar, rekindling his love affair with music. Yet, something was missing. Four years later, a thunderous epiphany hit him: he wasn't just any musician; he was a BASS PLAYER. Influenced by legends like Flea, Luis Johnson, John Entwistle, and Duff McKagan, Rick's bass lines groove like thunderstorms, electrifying every stage he graces. But here's the kicker: Rick's not just about playing. He's about living, breathing, and exuding music! Witness the magic unfold as he takes center stage, electrifying crowds with his infectious energy and killer bass licks. Because for Rick, the thrill of live performance isn't just a moment—it's a way of life. Catch Rick Gentry in action, and prepare to be swept away on a sonic adventure you won't soon forget! 🎶✨",
+            "instrument": "On the Bass",
+            "image": rickPic
+        },
+        "Angel": {
+            "description": "Meet Angel, the dynamic force behind Luvsikangel, whose journey into the spotlight began at a tender age, ignited by a fiery passion for performance. 🎤 With a background steeped in acting and theater, Angel's stage presence is nothing short of captivating, weaving a spellbinding narrative with each note and movement. Born into a family of musical luminaries, Angel's roots run deep in the vibrant tapestry of live entertainment. Surrounded by relatives who graced stages across the nation, from the bustling streets of New York to the eclectic vibes of San Francisco, Angel's upbringing was a symphony of inspiration and artistic expression. But it was more than just destiny—it was a calling. From a young age, Angel exuded a natural talent and an insatiable hunger to command the stage and enrapture audiences. It's not just about singing; it's about creating an experience that transcends the ordinary—a theatrical spectacle that leaves an indelible mark on the soul. Now, as the lead singer of Luvsikangel, Angel's electrifying performances are a testament to her unwavering dedication and boundless creativity. With every song, she channels her theatrical prowess, infusing each lyric with emotion and intensity, leaving audiences spellbound and yearning for more. Step into Angel's world, where every melody is a story waiting to be told, and every performance is an invitation to lose yourself in the magic of live music. Join her on a journey where passion meets talent, and the stage becomes a playground of endless possibilities. 🎶✨",
+            "instrument": "Lead Vocalist",
+            "image": angelPic
+        },
+        "Drums": {
+            "image": drumsPic
+        },
+        "Guitar": {
+            "image": guitarPic
+        }
+    }
     return (
         <div className="about-index-item-wrapper">
             <div className="rocker-tag">
-                <img className="rocker-image" src={images[name]} alt={name} />
-                <div className="rocker-name">
-                    {name}
-                </div>
+                <img className="rocker-image" src={rockers[name].image} alt={name} />
             </div>
             <div className="rocker-desc">
-                {descriptions[name]}
+                <div className="rocker-name">
+                    {name}
+                    <p className="instrument">
+                        {rockers[name].instrument}
+                    </p>
+                </div>
+                {rockers[name].description}
             </div>
         </div>
     )

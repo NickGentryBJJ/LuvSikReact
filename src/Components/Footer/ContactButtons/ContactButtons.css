@@ -1,6 +1,8 @@
-.contact-foot{
-    width: 30%;
-}
+/* .contact-foot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+} */
 .email-foot{
     display: flex;
     flex-direction: column;
@@ -10,14 +12,14 @@
 .want-email{
     font-size: 35px;
     margin-bottom: 50px;
-    font-family: 'Fjalla One', sans-serif;
-    color: #b4b4ff;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
     text-shadow: 6px 6px 4px black;
 }
 .email-button {
     display: inline-block;
     padding: 15px 30px; 
-    background-color: #b4b4ff;
+    background-color: #fff;
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
@@ -27,12 +29,11 @@
     transition: background-color 0.3s;
 }
 .email-button:hover {
-    background-color: #05ffeec9;
+    background-color: #4d4d4df5;
 }
 .kokachin {
     width: 6rem;
 }
-
 @media only screen and (max-width: 768px) {
     .want-email, .want-phone, .want-message {
         text-align: center;

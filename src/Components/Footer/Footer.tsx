@@ -20,9 +20,11 @@ function Footer(): JSX.Element {
                         <Social/>
                         <MobileTrademarks/>        
                     </div>
-                    <ContactButtons/>
+                    <div className="foot-right">
+                        <ContactButtons/>
+                        <DesktopTrademarks/>
+                    </div>
                 </div>
-                <DesktopTrademarks/>
             </div>
         </footer>     
     );

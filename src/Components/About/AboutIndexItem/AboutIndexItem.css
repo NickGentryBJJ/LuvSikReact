@@ -2,10 +2,9 @@
     font-size: 40px;
     color: white;
     display: flex;
-    flex-direction: column;
     gap: 40px;
     width: 90%;
-    background: linear-gradient(158deg, #cf0808, #a88a04);
+    background: #000b6496;
     padding: 5%;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -22,21 +21,25 @@
 .rocker-name{
     display: flex;
     align-items: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 55px;
-    color: #b4b4ff;
+    color: #fff;
     text-shadow: 4px 4px 4px black;
 }
 .rocker-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
     font-family: 'Dosis', sans-serif; 
     font-size: 36px;
-    color: #b4b4ff; 
+    color: #fff; 
     text-shadow: 2px 2px 2px black;
     line-height: 55px;
 }
-.rocker-inst{
-    display: flex;
-    justify-content: center;
+.instrument{
+    padding-left: 30px;
+    font-size: 34px;
 }
 @media only screen and (max-width: 768px) {
     .rocker-desc{

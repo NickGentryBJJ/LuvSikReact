@@ -1,8 +1,8 @@
 #contact-section{
-    padding-top: 70px;
+    padding-top: 115px;
 }
 .footer-container {
-    background: linear-gradient(327deg, #5a00ff75, #ff000066);
+    background: #2b2b2be0;
     display: flex;
 }
 .footer-wrapper {
@@ -19,12 +19,20 @@
     width: 40%;
     margin-left: 30px;
 }
+.foot-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    gap: 70px;
+}
 .foot-title{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 50px;
-    color: #b4b4ff;
+    color: #fff;
     text-shadow: 8px 8px 4px black;
 }
 .exit-statement, .exit-statement-mobile {
@@ -32,7 +40,7 @@
     font-size: 30px;
     text-align: center;
     line-height: 1.5;
-    color: #b4b4ff;
+    color: #fff;
 }
 .exit-statement-mobile{
     display: none;
@@ -43,7 +51,7 @@
     font-size: 30px;
     text-align: center;
     line-height: 2.5;
-    color: #b4b4ff;
+    color: #fff;
 }
 .footer-container{
     display: flex;
