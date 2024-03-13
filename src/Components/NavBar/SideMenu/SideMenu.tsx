@@ -8,7 +8,7 @@ interface menuProps {
 };
 
 function SideMenu(props: menuProps) {
-    const {isClicked, setIsClicked} = props
+    const {isClicked, setIsClicked} = props;
     function scrollToShows(): void {
         const aboutSection = document.getElementById('show-section');
         if (aboutSection) {
@@ -59,9 +59,9 @@ function SideMenu(props: menuProps) {
                 onClick={() => {setIsClicked(false)}}
             />
             <div className="links-menu">
-                {Object.entries(linkItems).map(([key, value]: [string, () => void]): JSX.Element => {
+                {Object.entries(linkItems).map(([key, value]: [string, () => void], index): JSX.Element => {
                     return (
-                        <p onClick={value} className="header-links">{key}</p>
+                        <p key={index} onClick={value} className="header-links show">{key}</p>
                     )
                 })}
             </div> 

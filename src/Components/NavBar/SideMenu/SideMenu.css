@@ -1,16 +1,37 @@
-.header-links{
-    cursor:pointer;
+.header-links {
+    cursor: pointer;
     text-decoration: none;
     font-weight: 600;
     font-size: 45px;
     display: flex;
     align-items: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #fff;
     text-shadow: 4px 4px 4px black;
-    transition: color 0.3s ease; 
+    opacity: 0; /* Initially hide each header link */
+    transition: opacity 0.5s ease, transform 1s ease; /* Fade and slide transitions */
+    transform: translateX(100%); /* Start offscreen to the right */
 }
-.header-links:hover {
+.menu-wrapper.show .header-links {
+    opacity: 1; /* Fade in each header link when 'show' class is applied */
+    transform: translateX(0); /* Slide in from right to left */
+}
+.header-links:nth-child(1) {
+    transition-delay: 0.4s; /* Delay for first header link */
+}
+.header-links:nth-child(2) {
+    transition-delay: 0.6s; /* Delay for second header link */
+}
+.header-links:nth-child(3) {
+    transition-delay: 0.8s; /* Delay for third header link */
+}
+.header-links:nth-child(4) {
+    transition-delay: 1s; /* Delay for fourth header link */
+}
+.header-links:nth-child(5) {
+    transition-delay: 1.2s; /* Delay for fifth header link */
+}
+.menu-wrapper.show .header-links:hover {
     color: #4d4d4df5; 
 }
 .menu-wrapper {
@@ -28,12 +49,22 @@
     background: #111111f5;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* Initially move menu out of viewport */
+    transition: transform 1s ease; /* Slide transition */
 }
 .links-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 40px;
+    opacity: 0; /* Initially hide menu items */
+    transition: opacity 1s ease; /* Fade transition */
+}
+.menu-wrapper.show {
+    transform: translateX(0); /* Slide in menu when 'show' class is applied */
+}
+.menu-wrapper.show .links-menu {
+    opacity: 1; /* Fade in menu items when 'show' class is applied */
 }
 .close-icon{
     width: 2rem;
@@ -53,7 +84,7 @@
     }
     .menu-wrapper {
         align-items: center; 
-        width: 40%; 
+        width: 55%; 
         height: auto; 
         margin-top: 90px;
         border-top-left-radius: 20px;
@@ -62,7 +93,7 @@
     }
     .links-menu {
         margin-top: 20px; 
-        gap: 20px; 
+        gap: 40px; 
     }
     .header-links {
         font-size: 24px; 
