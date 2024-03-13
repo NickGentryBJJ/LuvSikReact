@@ -1,7 +1,7 @@
 import React from "react";
 import "./Social.css";
-import youtubePic from "../../../images/youtube-link.png";
-import facebookPic from "../../../images/facebook-icon.png";
+import youtubePic from "../../../images/youtube-link.png";    /* <a href="https://www.freepik.com/search">Icon by Enamo Studios</a> */
+import facebookPic from "../../../images/facebook-icon.png";  /* <a href="https://www.freepik.com/search">Icon by Ruslan Babkin</a> */
 import gigSaladPic from "../../../images/band_icon.png";
 
 
