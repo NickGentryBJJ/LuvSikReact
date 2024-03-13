@@ -3,11 +3,12 @@ import "./SideMenu.css";
 import cross from "../../../images/cross.png";
 
 interface menuProps {
+    isClicked: boolean;
     setIsClicked: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 function SideMenu(props: menuProps) {
-    const {setIsClicked} = props
+    const {isClicked, setIsClicked} = props
     function scrollToShows(): void {
         const aboutSection = document.getElementById('show-section');
         if (aboutSection) {
@@ -50,7 +51,7 @@ function SideMenu(props: menuProps) {
         "Contact": scrollToContact
     };
     return (
-        <div className="menu-wrapper">
+        <div className={`menu-wrapper ${isClicked ? "show" : ""}`}>
             <img 
                 src={cross} 
                 alt="Close" 
