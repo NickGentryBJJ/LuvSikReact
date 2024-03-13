@@ -1,6 +1,8 @@
-.contact-foot{
-    width: 30%;
-}
+/* .contact-foot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+} */
 .email-foot{
     display: flex;
     flex-direction: column;
@@ -27,12 +29,11 @@
     transition: background-color 0.3s;
 }
 .email-button:hover {
-    background-color: #05ffeec9;
+    background-color: #4d4d4df5;
 }
 .kokachin {
     width: 6rem;
 }
-
 @media only screen and (max-width: 768px) {
     .want-email, .want-phone, .want-message {
         text-align: center;

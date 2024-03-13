@@ -1,6 +1,7 @@
 #show-section {
     display: flex;
     flex-direction: column;
+    padding-top: 45px;
 }
 .show-section-wrapper {
     padding: 30px;
