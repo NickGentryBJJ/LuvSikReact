@@ -78,6 +78,9 @@
     .foot-left{
         width: 50%;
     }
+    .foot-right{
+        justify-content: flex-start;
+    }
     .last-words-footer{
         font-size: 16px;
     }

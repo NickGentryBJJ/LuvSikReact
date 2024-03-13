@@ -42,8 +42,9 @@
         flex-direction: column-reverse;
     }
     .location{
-        font-size: 36px;
+        font-size: 32px;
         margin-bottom: 18px;
+        text-align: center;
     }
     .date-section{
         font-size: 24px;
