@@ -28,7 +28,12 @@
     background: #111111f5;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* right: -400px; Hide the menu off-screen */
+    /* transition: right 4s ease; */
 }
+/* .menu-wrapper.show {
+    right: 0; 
+} */
 .links-menu {
     display: flex;
     flex-direction: column;
