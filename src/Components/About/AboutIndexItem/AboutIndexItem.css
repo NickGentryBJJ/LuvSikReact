@@ -1,7 +1,6 @@
 .about-index-item-wrapper {
     font-size: 40px;
     color: white;
-    display: flex;
     gap: 40px;
     width: 90%;
     background: #000b6496;
@@ -9,45 +8,37 @@
     border-radius: 20px;
     margin-bottom: 50px;
 }
-.rocker-image{
-    width: 10rem;
+.rocker-tag{
+    float: left;
+    padding-right: 30px;
+}
+.rocker-image {
+    width: 100%;
     height: 17rem;
     border-radius: 45px;
 }
-.rocker-tag{
-    display: flex;
-    justify-content: space-around;
-    height: fit-content;
-}
-.rocker-name{
-    display: flex;
-    align-items: center;
+.rocker-name {
     font-family: 'Playfair Display', serif;
     font-size: 55px;
     color: #fff;
     text-shadow: 4px 4px 4px black;
+    margin-bottom: 20px;
 }
-.rocker-desc-cont {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 20px;
-    font-family: 'Dosis', sans-serif; 
-    font-size: 36px;
-    color: #fff; 
+.instrument, .rocker-desc {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #fff;
     text-shadow: 2px 2px 2px black;
     line-height: 55px;
-    flex-grow: 1; 
-}
-.rocker-desc{
-    font-size: 26px;
-    line-height: 2;
-}
-.instrument{
-    padding-left: 30px;
-    font-size: 34px;
+    margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
+    .about-index-item-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .rocker-desc-cont{
         font-size: 26px;
         line-height: 45px;
@@ -55,12 +46,19 @@
     .rocker-name{
         gap: 15px;
         font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .instrument{
         padding: 0;
         text-align: center;
     }
-    .about-index-item-wrapper{
-        flex-direction: column;
+    .rocker-tag{
+        padding: 0;
+    }
+    .hide-mobile{
+        display: none;
     }
 }
