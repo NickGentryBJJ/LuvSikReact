@@ -32,8 +32,8 @@
     align-items: center;
     font-family: 'Dosis', sans-serif;
     font-size: 55px;
-    color: #b4b4ff;
-    text-shadow: 4px 4px 4px black;
+    color: #fff;
+    text-shadow: 3px 3px 3px black;
     transition: color 0.3s ease; 
 }
 .location:hover {
