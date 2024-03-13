@@ -6,25 +6,30 @@ import gigSaladPic from "../../../images/band_icon.png";
 
 
 function Social(): JSX.Element {
-    const names: string[] = ["youtube", "facebook", "gig-salad"];
-    const links: Record<string, string> = {
-        "youtube": "https://www.youtube.com/watch?v=1sivrmZTbXk",
-        "facebook": "https://facebook.com/luvsikangel/",
-        "gig-salad": "https://www.gigsalad.com/luvsikangel_concord1"
-    };
-    const images: Record<string, string> = {
-        "youtube": youtubePic,
-        "facebook": facebookPic,
-        "gig-salad": gigSaladPic
-    };
+    const links: Record<string, Record<string, string>> = {
+        "youtube": {
+            "image": youtubePic,
+            "link": "https://www.youtube.com/watch?v=1sivrmZTbXk"
+        },
+        "facebook": {
+            "image": facebookPic,
+            "link": "https://facebook.com/luvsikangel/"
+        },
+        "gig-salad": {
+            "image": gigSaladPic,
+            "link": "https://www.gigsalad.com/luvsikangel_concord1"
+        }
+    }
     return (
         <div className="social-container">
-            {names.map((name: string, index: number) => (
-                <div key={index}>
-                    <a href={links[name]} target="_blank" rel="noreferrer" className="social-link" >
-                        <img src={images[name]} alt="name" id={name} className="social-image" />
+            {Object.entries(links).map(([key, value]: [string, Record<string, string>]): JSX.Element => ( 
+                    <a target="_blank" rel="noreferrer" className="social-link" href={value.link}>
+                        <img 
+                            className="social-image"
+                            src={value.image} 
+                            alt={key} 
+                        />
                     </a>
-                </div>
             ))}
         </div>
     );

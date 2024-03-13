@@ -31,7 +31,6 @@
     letter-spacing: 2px;
     z-index:1;
 }
-
 /* MOBILE STYLING */
 @media only screen and  (max-width: 768px) {
     .header-links-wrapper{
@@ -39,5 +38,11 @@
     }
     .nav-logo{
         width: 5rem;
+    }
+    .nav-media-item{
+        width: 3.2rem;
+    }
+    .nav-media-links{
+        gap: 20px;
     }
 }
