@@ -30,20 +30,19 @@ function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
         }
     }
     return (
-            <div className="about-index-item-wrapper">
-                <div className="rocker-tag">
-                    <img className="rocker-image" src={rockers[name].image} alt={name} />
-                </div>
-                <div className="rocker-info">
-                    <div className="rocker-name">
-                        {name} - <span className="instrument">{rockers[name].instrument}</span>
-                    </div>
-                    <p className="rocker-desc">
-                        {rockers[name].description}
-                    </p>
-                </div>
+        <div className="about-index-item-wrapper">
+            <div className="rocker-tag">
+                <img className="rocker-image" src={rockers[name].image} alt={name} />
             </div>
-        
+            <div className="rocker-info">
+                <div className="rocker-name">
+                    {name} <span className="hide-mobile">-</span> <span className="instrument">{rockers[name].instrument}</span>
+                </div>
+                <p className="rocker-desc">
+                    {rockers[name].description}
+                </p>
+            </div>
+        </div>
     )
-    }
+}
 export default AboutIndexItem;
