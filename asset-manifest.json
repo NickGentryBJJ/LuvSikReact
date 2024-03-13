@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0db9dbab.css",
-    "main.js": "/static/js/main.54a10ca3.js",
+    "main.css": "/static/css/main.c794e392.css",
+    "main.js": "/static/js/main.c0a977ea.js",
     "static/media/background.png": "/static/media/background.6ac44c4c8ebbcb336520.png",
     "static/media/guitar.jpg": "/static/media/guitar.2a817a8a28d30eca9f9b.jpg",
     "static/media/band_icon.png": "/static/media/band_icon.91864b48fd4c244bbfbd.png",
@@ -28,13 +28,14 @@
     "static/media/IMG_5429.jpg": "/static/media/IMG_5429.fa38cd6bcf00d4e61890.jpg",
     "static/media/github_2111425.png": "/static/media/github_2111425.d3263084234dc705b2ae.png",
     "static/media/youtube-link.png": "/static/media/youtube-link.6f9e32ba8209c71da075.png",
+    "static/media/close.png": "/static/media/close.72401139f5804d7cc0ac.png",
     "static/media/Email.png": "/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/index.html",
-    "main.0db9dbab.css.map": "/static/css/main.0db9dbab.css.map",
-    "main.54a10ca3.js.map": "/static/js/main.54a10ca3.js.map"
+    "main.c794e392.css.map": "/static/css/main.c794e392.css.map",
+    "main.c0a977ea.js.map": "/static/js/main.c0a977ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db9dbab.css",
-    "static/js/main.54a10ca3.js"
+    "static/css/main.c794e392.css",
+    "static/js/main.c0a977ea.js"
   ]
 }
