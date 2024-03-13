@@ -8,7 +8,7 @@
 }
 .my-row {
     font-size: 13.5px;
-    color: #b4b4ff;
+    color: #fff;
     margin-bottom: 9px;
     text-align: center;
     display: flex;
@@ -17,20 +17,20 @@
 .languages{
     width: 65%;
     margin-left: 14.5%;
-    color: #b4b4ff;
+    color: #fff;
 }
 .meh{
     width: 70%;
     margin-left: 13%;
-    color: #b4b4ff;
+    color: #fff;
 }
 .host  {
-    color: #b4b4ff;;
+    color: #fff;;
 }
 .git, .linked-in{
     width: 3rem;
     display: inline-block;
-    background-color: #b4b4ff;
+    background-color: #fff;
     color: white;
     text-decoration: none;
     border-radius: 8px;

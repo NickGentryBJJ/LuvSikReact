@@ -11,13 +11,13 @@
     font-size: 35px;
     margin-bottom: 50px;
     font-family: 'Fjalla One', sans-serif;
-    color: #b4b4ff;
+    color: #fff;
     text-shadow: 6px 6px 4px black;
 }
 .email-button {
     display: inline-block;
     padding: 15px 30px; 
-    background-color: #b4b4ff;
+    background-color: #fff;
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;

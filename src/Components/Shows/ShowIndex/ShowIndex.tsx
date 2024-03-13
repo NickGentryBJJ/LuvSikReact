@@ -97,7 +97,7 @@ function ShowIndex(): JSX.Element {
                                 month={value.month}
                                 day={value.day}
                                 time={value.time}
-                                />
+                            />
                         );
                     } else {
                         return null;

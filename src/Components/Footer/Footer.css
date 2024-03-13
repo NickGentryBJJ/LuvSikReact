@@ -2,7 +2,7 @@
     padding-top: 70px;
 }
 .footer-container {
-    background: linear-gradient(327deg, #5a00ff75, #ff000066);
+    background: #2b2b2be0;
     display: flex;
 }
 .footer-wrapper {
@@ -24,7 +24,7 @@
     margin-bottom: 20px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
-    color: #b4b4ff;
+    color: #fff;
     text-shadow: 8px 8px 4px black;
 }
 .exit-statement, .exit-statement-mobile {
@@ -32,7 +32,7 @@
     font-size: 30px;
     text-align: center;
     line-height: 1.5;
-    color: #b4b4ff;
+    color: #fff;
 }
 .exit-statement-mobile{
     display: none;
@@ -43,7 +43,7 @@
     font-size: 30px;
     text-align: center;
     line-height: 2.5;
-    color: #b4b4ff;
+    color: #fff;
 }
 .footer-container{
     display: flex;
