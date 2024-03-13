@@ -1,6 +1,6 @@
 import React from "react";
 import "./SideMenu.css";
-import cross from "../../../images/cross.png";
+import cross from "../../../images/close.png";  // <a href="https://www.freepik.com/search">Icon by khld939</a>
 
 interface menuProps {
     setIsClicked: React.Dispatch<React.SetStateAction<boolean>>;
