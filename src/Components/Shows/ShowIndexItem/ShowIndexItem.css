@@ -24,17 +24,14 @@
 .maps-link{
     text-decoration: none;    
 }
-.venue {
-    font-family: 'Roboto', sans-serif; 
-}
 .location {
     display: flex;
     align-items: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 55px;
+    font-size: 45px;
     color: #fff;
     text-shadow: 3px 3px 3px black;
     transition: color 0.3s ease; 
+    font-family: 'Playfair Display', serif;
 }
 .location:hover {
     color: #ffd700; 
