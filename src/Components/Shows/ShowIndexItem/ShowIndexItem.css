@@ -31,7 +31,7 @@
     color: #fff;
     text-shadow: 3px 3px 3px black;
     transition: color 0.3s ease; 
-    font-family: 'Playfair Display', serif;
+    font-family: "Francois One", sans-serif;
 }
 .location:hover {
     color: #ffd700; 

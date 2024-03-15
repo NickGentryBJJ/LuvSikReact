@@ -36,7 +36,7 @@ function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
             </div>
             <div className="rocker-info">
                 <div className="rocker-name">
-                    {name} <span className="hide-mobile">-</span> <span className="instrument">{rockers[name].instrument}</span>
+                    {name} <span className="hide-mobile instrument">-</span> <span className="instrument">{rockers[name].instrument}</span>
                 </div>
                 <p className="rocker-desc">
                     {rockers[name].description}

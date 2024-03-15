@@ -30,10 +30,10 @@
 .foot-title{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Francois One", sans-serif;
     font-size: 50px;
     color: #fff;
-    text-shadow: 8px 8px 4px black;
+    text-shadow: 4px 4px 4px black;
 }
 .exit-statement, .exit-statement-mobile {
     font-family: 'Dosis', sans-serif;

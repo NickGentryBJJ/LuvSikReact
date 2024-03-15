@@ -5,31 +5,31 @@
     font-size: 45px;
     display: flex;
     align-items: center;
-    font-family: 'Playfair Display', serif;
+    font-family: "Francois One", sans-serif;
     color: #fff;
     text-shadow: 4px 4px 4px black;
-    opacity: 0; /* Initially hide each header link */
-    transition: opacity 0.5s ease, transform 1s ease; /* Fade and slide transitions */
-    transform: translateX(100%); /* Start offscreen to the right */
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 1s ease; 
+    transform: translateX(100%); 
 }
 .menu-wrapper.show .header-links {
-    opacity: 1; /* Fade in each header link when 'show' class is applied */
-    transform: translateX(0); /* Slide in from right to left */
+    opacity: 1; 
+    transform: translateX(0); 
 }
 .header-links:nth-child(1) {
-    transition-delay: 0.4s; /* Delay for first header link */
+    transition-delay: 0.4s;
 }
 .header-links:nth-child(2) {
-    transition-delay: 0.6s; /* Delay for second header link */
+    transition-delay: 0.6s; 
 }
 .header-links:nth-child(3) {
-    transition-delay: 0.8s; /* Delay for third header link */
+    transition-delay: 0.8s;
 }
 .header-links:nth-child(4) {
-    transition-delay: 1s; /* Delay for fourth header link */
+    transition-delay: 1s; 
 }
 .header-links:nth-child(5) {
-    transition-delay: 1.2s; /* Delay for fifth header link */
+    transition-delay: 1.2s; 
 }
 .menu-wrapper.show .header-links:hover {
     color: #4d4d4df5; 

@@ -12,9 +12,9 @@
 .want-email{
     font-size: 35px;
     margin-bottom: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Francois One", sans-serif;
     color: #fff;
-    text-shadow: 6px 6px 4px black;
+    text-shadow: 4px 4px 4px black;
 }
 .email-button {
     display: inline-block;
