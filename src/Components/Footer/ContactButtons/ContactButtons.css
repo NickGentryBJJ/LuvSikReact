@@ -1,8 +1,3 @@
-/* .contact-foot{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-} */
 .email-foot{
     display: flex;
     flex-direction: column;
