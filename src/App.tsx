@@ -9,7 +9,6 @@ import SideMenu from './Components/NavBar/SideMenu/SideMenu';
 
 function App(): JSX.Element {
   const [isClicked, setIsClicked] = useState<boolean>(false);
-
   return (
     <>
       <NavBar isClicked={isClicked} setIsClicked={setIsClicked}/>
@@ -21,6 +20,5 @@ function App(): JSX.Element {
       <Footer/>
     </>
   );
-}
-
+};
 export default App;
