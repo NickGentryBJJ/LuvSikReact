@@ -1,18 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.27fe9077.css",
-    "main.js": "/static/js/main.435efb59.js",
+    "main.css": "/static/css/main.4ffa0f2d.css",
+    "main.js": "/static/js/main.78beb776.js",
     "static/media/background.png": "/static/media/background.6ac44c4c8ebbcb336520.png",
+    "static/media/guitar.jpg": "/static/media/guitar.2a817a8a28d30eca9f9b.jpg",
     "static/media/band_icon.png": "/static/media/band_icon.91864b48fd4c244bbfbd.png",
+    "static/media/IMG_5418.jpg": "/static/media/IMG_5418.4653a34663214610cd05.jpg",
+    "static/media/IMG_5414.jpg": "/static/media/IMG_5414.f2663893b6108a40dae6.jpg",
+    "static/media/IMG_0163.jpg": "/static/media/IMG_0163.51a89296b3a29e515802.jpg",
+    "static/media/IMG_0162.jpg": "/static/media/IMG_0162.ddfb2d98a3503ea08093.jpg",
+    "static/media/IMG_5415.jpg": "/static/media/IMG_5415.c38b93987db0f4ff60c1.jpg",
+    "static/media/IMG_5416.jpg": "/static/media/IMG_5416.32c39d435a107c431884.jpg",
+    "static/media/IMG_5443.jpg": "/static/media/IMG_5443.1a4fa7159e4263060e1f.jpg",
+    "static/media/IMG_5436.jpg": "/static/media/IMG_5436.0404c93bb7091d7fddfa.jpg",
+    "static/media/IMG_5431.jpg": "/static/media/IMG_5431.6ae5f797ef3d1e3a6147.jpg",
+    "static/media/IMG_5430.jpg": "/static/media/IMG_5430.34632de43160ad65ae65.jpg",
+    "static/media/IMG_5437.jpg": "/static/media/IMG_5437.824668ba793dbff4d40a.jpg",
+    "static/media/IMG_5426.jpg": "/static/media/IMG_5426.e6cb4abfcac0907c5e4b.jpg",
+    "static/media/IMG_5433.jpg": "/static/media/IMG_5433.295afe4c84769147fcb8.jpg",
+    "static/media/IMG_5434.jpg": "/static/media/IMG_5434.c264036862b5455ebee1.jpg",
+    "static/media/IMG_5439.jpg": "/static/media/IMG_5439.94f5565279a2d42a0f89.jpg",
+    "static/media/IMG_5440.jpg": "/static/media/IMG_5440.aa94a807369fd8b88d5a.jpg",
+    "static/media/IMG_5441.jpg": "/static/media/IMG_5441.bdc1708f1468bb7c26da.jpg",
+    "static/media/IMG_5435.jpg": "/static/media/IMG_5435.050f084b309a38890090.jpg",
+    "static/media/IMG_5442.jpg": "/static/media/IMG_5442.8b2be4631dc9c6144366.jpg",
+    "static/media/IMG_5429.jpg": "/static/media/IMG_5429.fa38cd6bcf00d4e61890.jpg",
     "static/media/github_2111425.png": "/static/media/github_2111425.d3263084234dc705b2ae.png",
     "static/media/facebook-icon.png": "/static/media/facebook-icon.795fce8e464693d7346d.png",
+    "static/media/close.png": "/static/media/close.72401139f5804d7cc0ac.png",
+    "static/media/navYoutube.png": "/static/media/navYoutube.4ad78c4004874a182b12.png",
     "static/media/Email.png": "/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/index.html",
-    "main.27fe9077.css.map": "/static/css/main.27fe9077.css.map",
-    "main.435efb59.js.map": "/static/js/main.435efb59.js.map"
+    "main.4ffa0f2d.css.map": "/static/css/main.4ffa0f2d.css.map",
+    "main.78beb776.js.map": "/static/js/main.78beb776.js.map"
   },
   "entrypoints": [
-    "static/css/main.27fe9077.css",
-    "static/js/main.435efb59.js"
+    "static/css/main.4ffa0f2d.css",
+    "static/js/main.78beb776.js"
   ]
 }
