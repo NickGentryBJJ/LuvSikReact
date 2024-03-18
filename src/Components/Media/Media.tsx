@@ -24,8 +24,8 @@ import kyoshi from "../../images/galleryPhotos/IMG_5443.jpg";
 import roku from "../../images/galleryPhotos/IMG_0162.jpg";
 
 function Media(): JSX.Element {
-    const firstRowImgs: string[] = [angel, rick, drums, guitar]
-    const mainGalleryImgs: string[] = [aang, kitara, sokka, suki, momo, bumi, zuko, ozai, mai, azula, tylee, toph, jhao, iroh, ursa, appa, kyoshi, roku]        
+    const firstRowImgs: string[] = [angel, rick, drums, guitar];
+    const mainGalleryImgs: string[] = [aang, kitara, sokka, suki, momo, bumi, zuko, ozai, mai, azula, tylee, toph, jhao, iroh, ursa, appa, kyoshi, roku];        
     
     useEffect(() => {
         const images = document.querySelectorAll('.gill');

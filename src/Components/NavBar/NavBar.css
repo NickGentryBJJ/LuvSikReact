@@ -31,7 +31,7 @@
     letter-spacing: 2px;
     z-index:1;
 }
-/* MOBILE STYLING */
+/* MID_SIZE MOBILE STYLING */
 @media only screen and  (max-width: 768px) {
     .header-links-wrapper{
         height: 90px;
@@ -44,5 +44,14 @@
     }
     .nav-media-links{
         gap: 20px;
+    }
+}
+/* SMALL MOBILE STYLING */
+@media only screen and  (max-width: 476px) {
+    .nav-logo, .menu-button, .nav-media-item {
+        width: 3.5rem;
+    }
+    .menu-button{
+        margin-right: 5px;
     }
 }

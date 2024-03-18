@@ -22,7 +22,8 @@
     color: #ffd700; 
 }
 .maps-link{
-    text-decoration: none;    
+    text-decoration: none;   
+    cursor: pointer; 
 }
 .location {
     display: flex;

@@ -28,6 +28,7 @@ function Social(): JSX.Element {
                             className="social-image"
                             src={value.image} 
                             alt={key} 
+                            key={key}
                         />
                     </a>
             ))}
