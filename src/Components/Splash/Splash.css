@@ -1,5 +1,5 @@
 /*  TOP FUNCTIONALITY  */
-@keyframes diagonalSlideLogo {
+/* @keyframes diagonalSlideLogo {
     from {
         transform: translate(-50vw, -50vh);
         opacity: 0;
@@ -12,7 +12,7 @@
 .logo {
     animation: diagonalSlideLogo 1.5s ease-out forwards;
 }
-
+ */
 html{
     scroll-behavior: smooth; 
 }

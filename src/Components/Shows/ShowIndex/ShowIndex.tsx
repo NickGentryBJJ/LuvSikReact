@@ -83,7 +83,6 @@ function ShowIndex(): JSX.Element {
                 <h1 className="show-title">
                     LuvSikAngel Live!
                 </h1>                
-                {/* ITERATE THROUGH DATES OBJECT */}
                 {Object.entries(dates).map(([key, value]: [string, Record<string, string>]): JSX.Element | null => { 
                     const showDate = new Date(`${value.year}-${value.month}-${value.check}`); // create valid json date
                     const currentDate: Date = new Date();  // get current date                                     
