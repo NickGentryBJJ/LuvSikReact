@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "homepage": "https://luvsikangel.com",
   "private": true,
-  "proxy": "http://localhost:5001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^11.2.7",
@@ -52,6 +51,7 @@
     "nth-check": ">=2.0.1",
     "postcss": ">=8.4.31",
     "react-scripts": "^5.0.1",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "typescript": "^5.4.2"
   }
 }

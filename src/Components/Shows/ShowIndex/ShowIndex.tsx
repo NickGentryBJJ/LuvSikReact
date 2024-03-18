@@ -84,9 +84,6 @@ function ShowIndex(): JSX.Element {
                     LuvSikAngel Live!
                 </h1>                
                 {Object.entries(dates).map(([key, value]: [string, Record<string, string>]): JSX.Element | null => { 
-                    const showDate = new Date(`${value.year}-${value.month}-${value.check}`); // create valid json date
-                    const currentDate: Date = new Date();  // get current date                                     
-                    if (showDate.getTime() >  currentDate.getTime()) { // ensure no old shows get displayed
                         return (
                             <ShowIndexItem // initialize showIndexItem component for each valid date object
                                 key={key} 
@@ -98,9 +95,6 @@ function ShowIndex(): JSX.Element {
                                 time={value.time}
                             />
                         );
-                    } else {
-                        return null;
-                    }
                 })}
             </div>
         </div>
