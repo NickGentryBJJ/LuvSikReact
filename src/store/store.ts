@@ -3,7 +3,6 @@ import { thunk, ThunkDispatch, ThunkMiddleware } from 'redux-thunk';
 import sessionReducer, { SessionState, SessionActionTypes } from './session';
 import usersReducer, { UsersState, UserActionTypes } from './users';
 import rootReducer from './reducers';
-declare const process: any;
 
 // Define the root state type by combining all individual state types
 export interface RootState {
