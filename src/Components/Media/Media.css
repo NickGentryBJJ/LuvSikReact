@@ -68,12 +68,14 @@
     .first-row{        
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 100px;
+        width: 70%;
     }
     .second-row{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        gap: 100px;
     }
     .media-cont{
         width: 70%;
