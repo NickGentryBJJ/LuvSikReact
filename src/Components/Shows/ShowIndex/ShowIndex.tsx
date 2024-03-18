@@ -4,17 +4,8 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { // dates object, all coming dates WILL be displayed
-        "FA": {                                             // ADD DATES SOONEST-LATEST
+        "PSB2": {                                           // ADD DATES SOONEST-LATEST
             "month": "April",                               // REMOVE OLD DATES WHEN POSSIBLE
-            "check": "12",
-            "day": "12th",
-            "time": "8:00PM - 12:00AM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqEggBEC4YChivARjHARiABBiOBTIGCAAQRRg5MhIIARAuGAoYrwEYxwEYgAQYjgUyDwgCEC4YChivARjHARiABDISCAMQLhgKGK8BGMcBGIAEGJgFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMg8IBxAuGAoYrwEYxwEYgAQyCQgIEAAYChiABNIBCDQxMjBqMGo0qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KYdtcRw4YYWAMREdcjGHr53U&daddr=1938+Contra+Costa+Blvd,+Pleasant+Hill,+CA+94523",
-            "name": "Farrington's"
-        },
-        "PSB2": {
-            "month": "April",
             "check": "20",
             "day": "20th",
             "time": "9:00PM - 10:30AM",
