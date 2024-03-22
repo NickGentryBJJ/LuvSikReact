@@ -3,12 +3,21 @@ import './ShowIndex.css';
 import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
-    const dates: Record<string, Record<string, string>> = { // dates object, all coming dates WILL be displayed
-        "PSB2": {                                           // ADD DATES SOONEST-LATEST
-            "month": "April",                               // REMOVE OLD DATES WHEN POSSIBLE
+    const dates: Record<string, Record<string, string>> = { 
+        "CJ22": {
+            "month": "April",
+            "check": "12",
+            "day": "12th",
+            "time": "8:00PM - 12:00PM",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//548+Contra+Costa+Blvd+G,+Pleasant+Hill,+CA+94523/@37.9795468,-122.1499568,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80856696a922960f:0xf10181bbf83d8329!2m2!1d-122.0675467!2d37.97953?entry=ttu", 
+            "name": "CJ's Saloon"
+        },
+        "PSB2": {                                           
+            "month": "April",                               
             "check": "20",
             "day": "20th",
-            "time": "9:00PM - 10:30AM",
+            "time": "9:00PM - 10:30PM",
             "year": "2024",
             "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqFQgCEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MgYIARBFGEAyFQgCEC4YJxivARjHARiABBiKBRiOBTIHCAMQABiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIQCAYQLhivARjHARiABBiOBTINCAcQLhixAxiABBiKBdIBCDI0MThqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
             "name": "Pine Street Bar"
