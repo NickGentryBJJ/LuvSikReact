@@ -1,7 +1,7 @@
 
 # Welcome To LuvSikAngel!
 
-### [LuvSikAngel.com](https://luvsikangel.com), is a dynamic web application showcasing the latest updates and events for the band LuvSikAngel. Originally built using JavaScript, this project has undergone significant enhancements and refactoring, gradually incorporating TypeScript for improved type safety and maintainability. With each iteration, new features and optimizations have been introduced, reflecting a commitment to delivering an exceptional user experience and staying at the forefront of web development technologies. Dive in to explore the journey of LuvSikAngel, where music meets innovation.  
+### [LuvSikAngel.com](https://luvsikangel.com), is a dynamic web application showcasing the latest updates and events for the band LuvSikAngel. Originally built using Vanilla JavaScript, this project has undergone significant enhancements and refactoring, gradually incorporating TypeScript for improved type safety and maintainability. With each iteration, new features and optimizations have been introduced, reflecting a commitment to delivering an exceptional user experience and staying at the forefront of web development technologies. Dive in to explore the journey of LuvSikAngel, where music meets innovation.  
 
 ## Currently Under Construction!
 
