@@ -22,10 +22,14 @@ function AboutIndexItem(props: AboutIndexItemProps): JSX.Element {
             "instrument": "Lead Vocalist",
             "image": angelPic
         },
-        "Drums": {
+        "Bill": {
+            "description": "Born in Connecticut in 1966, Bill started playing drums at age 11. Played in orchestra in junior high school. Played in garage bands in high school. As an adult has played in numerous classic rock cover bands. He joined his first tribute band in 1994-POWERAGE tribute to AC/DC. Since then, he has been in and out of 10 other tribute bands.As of March 2024 he is in Luvsik Angel, Guilty as Sin, Heart and Soul- tribute to Huey Lewis, Fleet Street and Sonic Temple-tribute to The Cult.",
+            "instrument": "Drums",
             "image": drumsPic
         },
-        "Guitar": {
+        "Brett": {
+            "description": "Meet Brett Hertzberg, the man with searing guitar leads to tickle your tinnitus.  A recent transplant into the East Bay, Brett originally hails from the east coast, where his musical journey began from the second grade. After becoming an accomplished classical trumpet player for over 10 years, he delved into all things guitar and has never looked back.  From east coast to west cost, Brett has cut his teeth on numerous genres of music including hard rock, metal, grunge, southern rock, pop and even Jazz. With an attention to detail, Brett often combines elements of multiple instruments and theory into his playing, arranging the notes in his head to fill the stage with his own brand and style of music.  His musical influences are eclectic, including Wes Montgomery, Led Zeppelin, Lynyrd Skynyrd, Iron Maiden, Ozzy Osbourne, the Red Hot Chili Peppers, Van Halen, Stone Temple Pilots, and Alice in Chains, to name a few.  His most recent stint was throwing down leads for the New Norm in Seattle.  Now putting his meticulous melodies to work in the East Bay, come check him out!",
+            "instrument": "Lead Guitar",
             "image": guitarPic
         }
     }
