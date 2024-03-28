@@ -17,7 +17,8 @@
     "react-router-dom": "^5.3.4",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
-    "webpack-dev-middleware": ">=5.3.4"
+    "webpack-dev-middleware": ">=5.3.4",
+    "express": ">=4.19.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -54,6 +55,7 @@
     "react-scripts": "^5.0.1",
     "redux-logger": "^3.0.6",
     "typescript": "^5.4.2",
-    "webpack-dev-middleware": ">=5.3.4"
+    "webpack-dev-middleware": ">=5.3.4",
+    "express": ">=4.19.2"
   }
 }
