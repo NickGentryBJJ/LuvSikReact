@@ -17,7 +17,7 @@ function DesktopTrademarks(): JSX.Element {
                 </div>
                 <div className="my-row languages">
                     <span className="host jvscrpt">
-                        Javascript
+                        TypeScript
                     </span>
                     <span className="host htmltaa">
                         React

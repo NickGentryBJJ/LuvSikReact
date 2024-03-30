@@ -19,14 +19,14 @@
 }
 .rocker-name {
     font-family: "Francois One", sans-serif;
-    font-size: 55px;
+    font-size: 58px;
     color: #fff;
     text-shadow: 4px 4px 4px black;
     margin-bottom: 20px;
 }
 .instrument, .rocker-desc {
     font-family: 'Dosis', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     color: #fff;
     text-shadow: 2px 2px 2px black;
     line-height: 55px;

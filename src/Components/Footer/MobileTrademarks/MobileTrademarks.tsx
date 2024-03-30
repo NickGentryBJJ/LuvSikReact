@@ -18,7 +18,7 @@ function MobileTrademarks(): JSX.Element {
                 </div>
                 <div className="my-row">
                     <span className="host">
-                        Javascript
+                        TypeScript
                     </span>
                     <span className="host">
                         React
