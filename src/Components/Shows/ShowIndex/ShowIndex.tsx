@@ -4,15 +4,6 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
-        "CJ22": {
-            "month": "April",
-            "check": "12",
-            "day": "12th",
-            "time": "8:00PM - 12:00PM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//548+Contra+Costa+Blvd+G,+Pleasant+Hill,+CA+94523/@37.9795468,-122.1499568,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80856696a922960f:0xf10181bbf83d8329!2m2!1d-122.0675467!2d37.97953?entry=ttu", 
-            "name": "CJ's Saloon"
-        },
         "PSB2": {                                           
             "month": "April",                               
             "check": "20",
@@ -73,8 +64,35 @@ function ShowIndex(): JSX.Element {
             "day": "10th",
             "time": "8:30PM - 12:00AM",
             "year": "2024",
-            "PISS": "https://www.google.com/maps/dir//Pioneer+Saloon,+2925+Woodside+Rd,+Woodside,+CA+94062/@37.4289167,-122.2529443,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x808fa4111018f733:0x76787400b7827090!2m2!1d-122.2503694!2d37.4289167!3e0?entry=ttu",
+            "maps": "https://www.google.com/maps/dir//Pioneer+Saloon,+2925+Woodside+Rd,+Woodside,+CA+94062/@37.4289167,-122.2529443,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x808fa4111018f733:0x76787400b7827090!2m2!1d-122.2503694!2d37.4289167!3e0?entry=ttu",
             "name": "Pioneer Saloon"
+        },
+        "CLAYTON": {
+            "month": "September",
+            "check": "7",
+            "day": "7th",
+            "time": "9:00PM - 1:00AM",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
+            "name": "Clayton Club Saloon"
+        },
+        "CLAYTON2": {
+            "month": "October",
+            "check": "4",
+            "day": "4th",
+            "time": "9:00PM - 1:00AM",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
+            "name": "Clayton Club Saloon"
+        },
+        "antlers": {
+            "month": "October",
+            "check": "26",
+            "day": "26th",
+            "time": "",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//2284+San+Pablo+Ave,+Pinole,+CA+94564/@38.0055802,-122.3736021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808576e1210dcdff:0x8b6432f9edb36ae3!2m2!1d-122.2911595!2d38.0055526?entry=ttu",
+            "name": "Antlers Tavern"
         }
     };
     return (
