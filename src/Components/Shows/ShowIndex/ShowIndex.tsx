@@ -69,8 +69,8 @@ function ShowIndex(): JSX.Element {
         },
         "CLAYTON": {
             "month": "September",
-            "check": "7",
-            "day": "7th",
+            "check": "6",
+            "day": "6th",
             "time": "9:00PM - 1:00AM",
             "year": "2024",
             "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
