@@ -40,6 +40,15 @@ function ShowIndex(): JSX.Element {
             "maps": "https://www.google.com/maps/dir//1932+Oak+Park+Blvd,+Pleasant+Hill,+CA+94523/@37.93408,-122.1577401,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085616778c4755b:0x69d0da664a3e9e21!2m2!1d-122.07534!2d37.9340441?entry=ttu",
             "name": "WiseGirl"
         },
+        "RP": {
+            "month": "July",
+            "check": "21",
+            "day": "21st",
+            "time": "2:00PM - 6:00PM", 
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//3893+N+Willow+Rd,+Bethel+Island,+CA+94511/@38.0345895,-121.7055546,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x809aab6cde10d63d:0xe9872c3b66ca1568!2m2!1d-121.623174!2d38.0346367?entry=ttu",
+            "name": "The Rusty Porthole"
+        },
         "PISS": {
             "month": "August",
             "check": "10",
