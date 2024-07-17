@@ -4,33 +4,6 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
-        "PSB": {
-            "month": "May",
-            "check": "25",
-            "day": "25th",
-            "time": "9:00PM - 1:00AM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqFQgCEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MgYIARBFGEAyFQgCEC4YJxivARjHARiABBiKBRiOBTIHCAMQABiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIQCAYQLhivARjHARiABBiOBTINCAcQLhixAxiABBiKBdIBCDI0MThqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
-            "name": "Pine Street Bar"
-        },
-        "CJ2": {
-            "month": "June",
-            "check": "9",
-            "day": "9th",
-            "time": "4:00PM - 8:00PM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//548+Contra+Costa+Blvd+G,+Pleasant+Hill,+CA+94523/@37.9795468,-122.1499568,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80856696a922960f:0xf10181bbf83d8329!2m2!1d-122.0675467!2d37.97953?entry=ttu", 
-            "name": "CJ's Saloon"
-        },
-        "MHBC": {
-            "month": "June",
-            "check": "23",
-            "day": "23rd",
-            "time": "5:00PM - 7:30PM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//2313+Oak+Grove+Rd,+Walnut+Creek,+CA+94598/@37.9286953,-122.0990693,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085605e0bf70651:0xcd2f8752e9eb7b38!2m2!1d-122.0166783!2d37.9287131?entry=ttu",
-            "name": "Mike Hess Brewing"
-        },
         "WI": {
             "month": "July",
             "check": "19",
@@ -48,6 +21,24 @@ function ShowIndex(): JSX.Element {
             "year": "2024",
             "maps": "https://www.google.com/maps/dir//3893+N+Willow+Rd,+Bethel+Island,+CA+94511/@38.0345895,-121.7055546,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x809aab6cde10d63d:0xe9872c3b66ca1568!2m2!1d-121.623174!2d38.0346367?entry=ttu",
             "name": "The Rusty Porthole"
+        },
+        "RTJ": {
+            "month": "August",
+            "check": "1",
+            "day": "1st",
+            "time": "",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//2112+N+Main+St,+Walnut+Creek,+CA+94596/@37.9088647,-122.1469277,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808561977b5834a7:0x1d4b3deaeaf94f61!2m2!1d-122.0645267!2d37.9088934?entry=ttu",
+            "name": "Retro Junkie"
+        },
+        "pss": {
+            "month": "August",
+            "check": "3",
+            "day": "3rd",
+            "time": "",
+            "year": "2024",
+            "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyDAgAEEUYORixAxiABDIQCAEQLhivARjHARiABBiOBTINCAIQLhivARjHARiABDIQCAMQLhivARjHARiABBiOBTITCAQQLhiDARivARjHARixAxiABDINCAUQLhivARjHARiABDIHCAYQABiABDIHCAcQABiABDINCAgQLhivARjHARiABNIBCDMwMzZqMGo3qAIIsAIB&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
+            "name": "Pine Street Bar"
         },
         "PISS": {
             "month": "August",
