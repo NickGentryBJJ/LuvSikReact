@@ -4,50 +4,23 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
-        "WI": {
-            "month": "July",
-            "check": "19",
-            "day": "19th",
-            "time": "7:00PM - 10:00PM", 
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//1932+Oak+Park+Blvd,+Pleasant+Hill,+CA+94523/@37.93408,-122.1577401,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085616778c4755b:0x69d0da664a3e9e21!2m2!1d-122.07534!2d37.9340441?entry=ttu",
-            "name": "WiseGirl"
-        },
-        "RP": {
-            "month": "July",
-            "check": "21",
-            "day": "21st",
-            "time": "2:00PM - 6:00PM", 
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//3893+N+Willow+Rd,+Bethel+Island,+CA+94511/@38.0345895,-121.7055546,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x809aab6cde10d63d:0xe9872c3b66ca1568!2m2!1d-121.623174!2d38.0346367?entry=ttu",
-            "name": "The Rusty Porthole"
-        },
-        "RTJ": {
-            "month": "August",
-            "check": "1",
-            "day": "1st",
-            "time": "",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//2112+N+Main+St,+Walnut+Creek,+CA+94596/@37.9088647,-122.1469277,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808561977b5834a7:0x1d4b3deaeaf94f61!2m2!1d-122.0645267!2d37.9088934?entry=ttu",
-            "name": "Retro Junkie"
-        },
-        "pss": {
-            "month": "August",
-            "check": "3",
-            "day": "3rd",
-            "time": "",
-            "year": "2024",
-            "maps": "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyDAgAEEUYORixAxiABDIQCAEQLhivARjHARiABBiOBTINCAIQLhivARjHARiABDIQCAMQLhivARjHARiABBiOBTITCAQQLhiDARivARjHARixAxiABDINCAUQLhivARjHARiABDIHCAYQABiABDIHCAcQABiABDINCAgQLhivARjHARiABNIBCDMwMzZqMGo3qAIIsAIB&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KVUqXV-354-AMSZenMcXDet2&daddr=875+Rincon+Ave,+Livermore,+CA+94551",
-            "name": "Pine Street Bar"
-        },
         "PISS": {
             "month": "August",
-            "check": "10",
-            "day": "10th",
-            "time": "8:30PM - 12:00AM",
+            "check": "24",
+            "day": "24th",
+            "time": "9:00PM - 1:00AM",
             "year": "2024",
-            "maps": "https://www.google.com/maps/dir//Pioneer+Saloon,+2925+Woodside+Rd,+Woodside,+CA+94062/@37.4289167,-122.2529443,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x808fa4111018f733:0x76787400b7827090!2m2!1d-122.2503694!2d37.4289167!3e0?entry=ttu",
-            "name": "Pioneer Saloon"
+            "maps": "https://www.google.com/maps/place/R+PLACE+MUSIC+CLUB/@37.6845737,-121.7688239,17z/data=!3m1!4b1!4m6!3m5!1s0x808fe7a0037bdd5f:0xe3dc06fc8ac34ad9!8m2!3d37.6845695!4d-121.766249!16s%2Fg%2F1t_tkjmx?entry=ttu",
+            "name": "R Place Music Club"
+        },
+             "iclub": {
+            "month": "August",
+            "check": "29",
+            "day": "29th",
+            "time": "8:30PM - 11:00PM",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/place/Number+1+Broadway/@37.221714,-121.9871003,17z/data=!3m1!4b1!4m6!3m5!1s0x808e35fbab00ff3d:0x462cee0ede21d857!8m2!3d37.2217098!4d-121.9845254!16s%2Fg%2F1tnqh6ry?entry=ttu",
+            "name": "Number 1 Broadway"
         },
         "CLAYTON": {
             "month": "September",
