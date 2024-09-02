@@ -4,24 +4,7 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
-        "PISS": {
-            "month": "August",
-            "check": "24",
-            "day": "24th",
-            "time": "9:00PM - 1:00AM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/place/R+PLACE+MUSIC+CLUB/@37.6845737,-121.7688239,17z/data=!3m1!4b1!4m6!3m5!1s0x808fe7a0037bdd5f:0xe3dc06fc8ac34ad9!8m2!3d37.6845695!4d-121.766249!16s%2Fg%2F1t_tkjmx?entry=ttu",
-            "name": "R Place Music Club"
-        },
-             "iclub": {
-            "month": "August",
-            "check": "29",
-            "day": "29th",
-            "time": "8:30PM - 11:00PM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/place/Number+1+Broadway/@37.221714,-121.9871003,17z/data=!3m1!4b1!4m6!3m5!1s0x808e35fbab00ff3d:0x462cee0ede21d857!8m2!3d37.2217098!4d-121.9845254!16s%2Fg%2F1tnqh6ry?entry=ttu",
-            "name": "Number 1 Broadway"
-        },
+        
         "CLAYTON": {
             "month": "September",
             "check": "6",
