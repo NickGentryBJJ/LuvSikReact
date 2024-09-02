@@ -27,7 +27,7 @@ function ShowIndex(): JSX.Element {
             "month": "October",
             "check": "26",
             "day": "26th",
-            "time": "",
+            "time": "9:00PM - 1:00AM",
             "year": "2024",
             "maps": "https://www.google.com/maps/dir//2284+San+Pablo+Ave,+Pinole,+CA+94564/@38.0055802,-122.3736021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808576e1210dcdff:0x8b6432f9edb36ae3!2m2!1d-122.2911595!2d38.0055526?entry=ttu",
             "name": "Antlers Tavern"
