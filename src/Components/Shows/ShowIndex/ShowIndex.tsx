@@ -5,15 +5,7 @@ import ShowIndexItem from "../ShowIndexItem/ShowIndexItem";
 function ShowIndex(): JSX.Element {
     const dates: Record<string, Record<string, string>> = { 
         
-        "CLAYTON": {
-            "month": "September",
-            "check": "6",
-            "day": "6th",
-            "time": "9:00PM - 1:00AM",
-            "year": "2024",
-            "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
-            "name": "Clayton Club Saloon"
-        },
+       
         "CLAYTON2": {
             "month": "October",
             "check": "4",
@@ -32,7 +24,24 @@ function ShowIndex(): JSX.Element {
             "maps": "https://www.google.com/maps/dir//2284+San+Pablo+Ave,+Pinole,+CA+94564/@38.0055802,-122.3736021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808576e1210dcdff:0x8b6432f9edb36ae3!2m2!1d-122.2911595!2d38.0055526?entry=ttu",
             "name": "Antlers Tavern"
         }
-    };
+         "Band Break": {
+            "month": "October",
+            "check": "27",
+            "day": "27th",
+            "time": "",
+            "year": "2024",
+            "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
+            "name": "Bank Break"
+        },
+         "Band Break Over": {
+            "month": "January",
+            "check": "1",
+            "day": "1st",
+            "time": "",
+            "year": "2025",
+            "maps": "https://www.google.com/maps/dir//clayton+club/@37.8695785,-122.4311709,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80855f128f35a14d:0x4205df8cfb67d883!2m2!1d-121.9350468!2d37.9410858?entry=ttu",
+            "name": "Band Break Over"
+        },
     return (
         <div id="show-section">
             <div className="show-section-wrapper">
